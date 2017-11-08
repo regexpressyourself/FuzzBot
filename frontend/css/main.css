@@ -1,0 +1,7 @@
+.question {
+    font-weight: 600;
+}
+
+.answers > li {
+    list-style-type: none;
+}
