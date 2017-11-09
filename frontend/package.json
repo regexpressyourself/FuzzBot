@@ -5,12 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "http-server": "^0.10.0",
-    "lit-html": "^0.7.1",
     "skeleton-css": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
-    "serve": "http-server frontend",
+    "serve": "http-server .",
     "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
