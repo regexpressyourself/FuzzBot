@@ -16,10 +16,10 @@ const createQuestion = (question, num) => {
     let q_id         = 'q'+num;
     let html_answers = "";
 
-    for (let ans of answers) {
-        let a_num = answers.indexOf(ans);
+    answers.map((ans) => {
+        let a_num     = answers.indexOf(ans);
         html_answers += createAnswer(ans, a_num, q_id);
-    }
+    });
 
     return `
         <div>
@@ -45,7 +45,8 @@ for (let question of quiz_questions) {
     let quiz_form = document.getElementById("inner-quiz");
     let q_num     = quiz_questions.indexOf(question);
     let new_quest = createQuestion(question, q_num);
+    new_quest     = render(new_quest);
 
-    quiz_form.appendChild(render(new_quest));
+    quiz_form.appendChild(new_quest);
 }
 
