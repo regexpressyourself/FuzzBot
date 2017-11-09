@@ -14,10 +14,10 @@
               content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" 
-              href="../node_modules/skeleton-css/css/normalize.css" 
+              href="./node_modules/skeleton-css/css/normalize.css" 
               type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" 
-              href="../node_modules/skeleton-css/css/skeleton.css" 
+              href="./node_modules/skeleton-css/css/skeleton.css" 
               type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" 
               href="./css/main.css" 
@@ -25,15 +25,14 @@
     </head>
 
     <body class="container">
-        <h1>Quiz</h1>
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <form action="index_submit" method="get" accept-charset="utf-8">
-            <div id="inner-quiz" class="twelve columns">
-                
-            </div>
-            
+        <h1>Quiz Taker</h1>
+        <p>A self-learning online quiz taker.</p>
+
+        <form method="post" accept-charset="utf-8">
+            <div id="inner-quiz" class="twelve columns"></div>
         </form>
-        <script charset="utf-8" type="module" src="../node_modules/lit-html/lit-html.js"></script>
+
+
         <script charset="utf-8" src="./js/quiz_data.js"></script>
         <script charset="utf-8" src="./js/generate_questions.js"></script>
         <script charset="utf-8" src="./js/take_quiz.js"></script>
