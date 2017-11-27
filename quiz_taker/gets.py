@@ -5,11 +5,10 @@ from quiz_taker import app, send_from_directory, jsonify, os, json
 ##################################################
 
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-json_url = os.path.join(SITE_ROOT, 'frontend/config', 'quiz_data.json')
-quiz_data = json.load(open(json_url))
+quiz_url = os.path.join(SITE_ROOT, 'frontend/config', 'quiz_data.json')
+quiz_data = json.load(open(quiz_url))
 
-json_url = os.path.join(SITE_ROOT, 'frontend/config', 'answer_data.json')
-answer_data = json.load(open(json_url))
+answer_url = os.path.join(SITE_ROOT, 'frontend/config', 'answer_data.json')
 
 @app.route('/api/get_questions', methods=['GET'])
 def get_current_data():
@@ -17,4 +16,5 @@ def get_current_data():
 
 @app.route('/api/get_answers', methods=['GET'])
 def get_answer_data():
+    answer_data = json.load(open(answer_url))
     return jsonify(answer_data)
