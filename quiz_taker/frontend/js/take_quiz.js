@@ -81,10 +81,3 @@ let takeTest = (json_data) =>
 }
 
 
-
-document.onreadystatechange = () => {
-    if (document.readyState === "complete") {
-        takeTest({});
-    }
-}
-
