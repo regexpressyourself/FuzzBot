@@ -1,8 +1,10 @@
-const createAnswer  = (ans, a_num, q_id) => { 
+const createAnswer  = (ans, a_num, q, q_id) => { 
+    let letter = ["a", "b", "c", "d"][a_num];
+
     return `
         <li>
             <label class="label-body" for="${q_id}-${a_num}">
-                <input type="radio" name="${q_id}" value="North Korea" id="${q_id}-${a_num}" />
+                <input type="radio" name="${q}" value="${letter}: ${ans}" id="${q_id}-${a_num}" />
                 <span class="label-body">${ans}
                 </span>
             </label>
@@ -18,13 +20,13 @@ const createQuestion = (question, num) => {
 
     answers.map((ans) => {
         let a_num     = answers.indexOf(ans);
-        html_answers += createAnswer(ans, a_num, q_id);
+        html_answers += createAnswer(ans, a_num, q, q_id);
     });
 
     return `
         <div>
             <hr />
-            <p id="${q_id}" class="question">${num+1}. '${q}</p>
+            <p class="question">${num+1}. <span id="${q_id}">${q}</span></p>
             <ul id="${q_id}_answers" class="answers">
                 ${html_answers}
             </ul>
@@ -37,16 +39,28 @@ const render = (html_string) => {
     return document.createRange().createContextualFragment(html_string);
 };
 
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
 
 // quiz_questions comes from quiz_data.js
-quiz_questions = quiz_questions.questions;
+quiz_questions = JSON.parse(httpGet("/api/get_questions"));
 
+let quiz_form = document.getElementById("inner-quiz");
+let i = 0;
 for (let question of quiz_questions) {
-    let quiz_form = document.getElementById("inner-quiz");
     let q_num     = quiz_questions.indexOf(question);
     let new_quest = createQuestion(question, q_num);
     new_quest     = render(new_quest);
 
     quiz_form.appendChild(new_quest);
+    i++;
+    if (i >= 20) {
+        break
+    }
 }
 

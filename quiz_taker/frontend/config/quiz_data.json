@@ -1,0 +1,932 @@
+[
+	{
+		"q": "Quality-focused clear-thinking firmware",
+		"a": [
+			"Arctic tern",
+			"Bird, pied butcher",
+			"Dog, black-tailed prairie",
+			"Giraffe"
+		],
+		"correct": "Arctic tern"
+	},
+	{
+		"q": "Profit-focused full-range intranet",
+		"a": [
+			"Cockatoo, roseate",
+			"European red squirrel",
+			"Sugar glider",
+			"White-fronted bee-eater"
+		],
+		"correct": "Sugar glider"
+	},
+	{
+		"q": "Implemented value-added frame",
+		"a": [
+			"Carpet snake",
+			"Eurasian red squirrel",
+			"Mallard",
+			"Snake, western patch-nosed"
+		],
+		"correct": "Snake, western patch-nosed"
+	},
+	{
+		"q": "Down-sized grid-enabled Graphic Interface",
+		"a": [
+			"Greater sage grouse",
+			"Lion, australian sea",
+			"Peregrine falcon",
+			"Tawny eagle"
+		],
+		"correct": "Lion, australian sea"
+	},
+	{
+		"q": "Vision-oriented zero tolerance function",
+		"a": [
+			"Caracara (unidentified)",
+			"Indian mynah",
+			"Praying mantis (unidentified)",
+			"Timber wolf"
+		],
+		"correct": "Indian mynah"
+	},
+	{
+		"q": "Robust asymmetric projection",
+		"a": [
+			"Australian spiny anteater",
+			"Black bear",
+			"Dark-winged trumpeter",
+			"Zebra, common"
+		],
+		"correct": "Dark-winged trumpeter"
+	},
+	{
+		"q": "Mandatory zero defect migration",
+		"a": [
+			"Bat, madagascar fruit",
+			"Grey phalarope",
+			"Levaillant's barbet",
+			"Wild boar"
+		],
+		"correct": "Grey phalarope"
+	},
+	{
+		"q": "Cross-platform interactive infrastructure",
+		"a": [
+			"Kite, black",
+			"Long-finned pilot whale",
+			"Possum, common brushtail",
+			"Shrew, mandras tree"
+		],
+		"correct": "Possum, common brushtail"
+	},
+	{
+		"q": "Multi-tiered solution-oriented product",
+		"a": [
+			"Mexican boa",
+			"Vine snake (unidentified)",
+			"Wallaroo, common",
+			"Woodchuck"
+		],
+		"correct": "Wallaroo, common"
+	},
+	{
+		"q": "Multi-layered 6th generation Graphical User Interface",
+		"a": [
+			"American Virginia opossum",
+			"American buffalo",
+			"Racer, blue",
+			"Yellow mongoose"
+		],
+		"correct": "Yellow mongoose"
+	},
+	{
+		"q": "Seamless dedicated data-warehouse",
+		"a": [
+			"Defassa waterbuck",
+			"Eagle, bald",
+			"Hoopoe, eurasian",
+			"Western patch-nosed snake"
+		],
+		"correct": "Western patch-nosed snake"
+	},
+	{
+		"q": "Automated hybrid challenge",
+		"a": [
+			"African wild cat",
+			"Eurasian beaver",
+			"Kangaroo, brush-tailed rat",
+			"Squirrel, thirteen-lined"
+		],
+		"correct": "Eurasian beaver"
+	},
+	{
+		"q": "Organized even-keeled open system",
+		"a": [
+			"Deer, black-tailed",
+			"Eagle owl (unidentified)",
+			"Penguin, galapagos",
+			"Stork, black-necked"
+		],
+		"correct": "Deer, black-tailed"
+	},
+	{
+		"q": "Down-sized methodical contingency",
+		"a": [
+			"African red-eyed bulbul",
+			"Barasingha deer",
+			"European stork",
+			"Otter, giant"
+		],
+		"correct": "African red-eyed bulbul"
+	},
+	{
+		"q": "Reduced national support",
+		"a": [
+			"Asian lion",
+			"Grouse, greater sage",
+			"Silver-backed jackal",
+			"Squirrel, arctic ground"
+		],
+		"correct": "Squirrel, arctic ground"
+	},
+	{
+		"q": "Devolved tertiary contingency",
+		"a": [
+			"Crown of thorns starfish",
+			"Monster, gila",
+			"Oriental white-backed vulture",
+			"Raccoon, common"
+		],
+		"correct": "Raccoon, common"
+	},
+	{
+		"q": "Face to face next generation contingency",
+		"a": [
+			"Legaan, Monitor (unidentified)",
+			"Pheasant, ring-necked",
+			"Smith's bush squirrel",
+			"Starling, red-shouldered glossy"
+		],
+		"correct": "Pheasant, ring-necked"
+	},
+	{
+		"q": "Multi-lateral 4th generation migration",
+		"a": [
+			"Bison, american",
+			"Blue crane",
+			"Jaeger, long-tailed",
+			"Sally lightfoot crab"
+		],
+		"correct": "Sally lightfoot crab"
+	},
+	{
+		"q": "Versatile next generation contingency",
+		"a": [
+			"Crowned hawk-eagle",
+			"Marmot, hoary",
+			"Peregrine falcon",
+			"White-throated toucan"
+		],
+		"correct": "Peregrine falcon"
+	},
+	{
+		"q": "Assimilated tertiary forecast",
+		"a": [
+			"European stork",
+			"Macaque, bonnet",
+			"Pied kingfisher",
+			"Short-beaked echidna"
+		],
+		"correct": "Macaque, bonnet"
+	},
+	{
+		"q": "Enhanced bottom-line throughput",
+		"a": [
+			"Hawk, red-tailed",
+			"Long-tailed jaeger",
+			"Malay squirrel (unidentified)",
+			"Sea birds (unidentified)"
+		],
+		"correct": "Long-tailed jaeger"
+	},
+	{
+		"q": "Reverse-engineered web-enabled firmware",
+		"a": [
+			"African polecat",
+			"Bushbuck",
+			"Green-backed heron",
+			"Vulture, turkey"
+		],
+		"correct": "African polecat"
+	},
+	{
+		"q": "Sharable empowering protocol",
+		"a": [
+			"Campo flicker",
+			"Gazelle, thomson's",
+			"Rhinoceros, square-lipped",
+			"Rose-ringed parakeet"
+		],
+		"correct": "Campo flicker"
+	},
+	{
+		"q": "Innovative 24 hour framework",
+		"a": [
+			"Bird, secretary",
+			"Ibis, sacred",
+			"Lion, asian",
+			"Red-shouldered glossy starling"
+		],
+		"correct": "Red-shouldered glossy starling"
+	},
+	{
+		"q": "Diverse optimal installation",
+		"a": [
+			"Squirrel, richardson's ground",
+			"Tortoise, burmese brown mountain",
+			"Wattled crane",
+			"Wolf spider"
+		],
+		"correct": "Squirrel, richardson's ground"
+	},
+	{
+		"q": "Fundamental system-worthy budgetary management",
+		"a": [
+			"Black-cheeked waxbill",
+			"Blue-tongued skink",
+			"Bulbul, black-eyed",
+			"Egret, snowy"
+		],
+		"correct": "Black-cheeked waxbill"
+	},
+	{
+		"q": "Multi-tiered global installation",
+		"a": [
+			"Lion, southern sea",
+			"Little grebe",
+			"Lizard, mexican beaded",
+			"Vulture, griffon"
+		],
+		"correct": "Vulture, griffon"
+	},
+	{
+		"q": "Integrated encompassing task-force",
+		"a": [
+			"Black-cheeked waxbill",
+			"Flamingo, roseat",
+			"Slender loris",
+			"Three-banded plover"
+		],
+		"correct": "Flamingo, roseat"
+	},
+	{
+		"q": "Fully-configurable optimizing workforce",
+		"a": [
+			"Barbet, levaillant's",
+			"Fowl, helmeted guinea",
+			"Grant's gazelle",
+			"Pygmy possum"
+		],
+		"correct": "Barbet, levaillant's"
+	},
+	{
+		"q": "Multi-tiered 3rd generation challenge",
+		"a": [
+			"Goldeneye, barrows",
+			"Lion, steller's sea",
+			"Macaw, blue and gold",
+			"Malleefowl"
+		],
+		"correct": "Goldeneye, barrows"
+	},
+	{
+		"q": "Quality-focused object-oriented process improvement",
+		"a": [
+			"Antelope ground squirrel",
+			"Boa, emerald green tree",
+			"Margay",
+			"Racer snake"
+		],
+		"correct": "Antelope ground squirrel"
+	},
+	{
+		"q": "Networked dynamic collaboration",
+		"a": [
+			"Bushbuck",
+			"Chickadee, black-capped",
+			"Gecko, bent-toed",
+			"Little heron"
+		],
+		"correct": "Gecko, bent-toed"
+	},
+	{
+		"q": "Open-source mobile open architecture",
+		"a": [
+			"Blackbird, red-winged",
+			"Cape fox",
+			"Galapagos penguin",
+			"Spotted deer"
+		],
+		"correct": "Galapagos penguin"
+	},
+	{
+		"q": "Configurable neutral hierarchy",
+		"a": [
+			"Eastern boa constrictor",
+			"Goldeneye, common",
+			"Openbill stork",
+			"Shrike, southern white-crowned"
+		],
+		"correct": "Shrike, southern white-crowned"
+	},
+	{
+		"q": "Synergized clear-thinking moderator",
+		"a": [
+			"Caracal",
+			"Common genet",
+			"Common waterbuck",
+			"Trotter, lily"
+		],
+		"correct": "Trotter, lily"
+	},
+	{
+		"q": "Phased well-modulated migration",
+		"a": [
+			"African snake (unidentified)",
+			"Little heron",
+			"Red-winged hawk (unidentified)",
+			"Rhesus macaque"
+		],
+		"correct": "African snake (unidentified)"
+	},
+	{
+		"q": "Multi-lateral content-based database",
+		"a": [
+			"Bear, black",
+			"Bleeding heart monkey",
+			"Burmese black mountain tortoise",
+			"Crane, blue"
+		],
+		"correct": "Burmese black mountain tortoise"
+	},
+	{
+		"q": "Automated next generation monitoring",
+		"a": [
+			"Goose, knob-nosed",
+			"Jaguarundi",
+			"Long-nosed bandicoot",
+			"Sloth, two-toed tree"
+		],
+		"correct": "Goose, knob-nosed"
+	},
+	{
+		"q": "Pre-emptive optimizing paradigm",
+		"a": [
+			"Dove, laughing",
+			"Fox, asian red",
+			"Stone sheep",
+			"Whale, killer"
+		],
+		"correct": "Whale, killer"
+	},
+	{
+		"q": "User-centric intangible support",
+		"a": [
+			"Flicker, field",
+			"Moccasin, water",
+			"Pigeon, feral rock",
+			"Spoonbill, european"
+		],
+		"correct": "Flicker, field"
+	},
+	{
+		"q": "Face to face full-range projection",
+		"a": [
+			"Brown hyena",
+			"Rat, white-faced tree",
+			"Red howler monkey",
+			"Snake, buttermilk"
+		],
+		"correct": "Brown hyena"
+	},
+	{
+		"q": "Profound regional solution",
+		"a": [
+			"Bleu, blue-breasted cordon",
+			"Sockeye salmon",
+			"Swan, black",
+			"White-nosed coatimundi"
+		],
+		"correct": "Swan, black"
+	},
+	{
+		"q": "Business-focused well-modulated archive",
+		"a": [
+			"Dark-winged trumpeter",
+			"Frilled dragon",
+			"Galapagos albatross",
+			"Marmot, hoary"
+		],
+		"correct": "Frilled dragon"
+	},
+	{
+		"q": "Synergistic exuding time-frame",
+		"a": [
+			"American badger",
+			"Bird, magnificent frigate",
+			"European beaver",
+			"Red-headed woodpecker"
+		],
+		"correct": "Red-headed woodpecker"
+	},
+	{
+		"q": "Networked mobile budgetary management",
+		"a": [
+			"American marten",
+			"Egret, great",
+			"Hawk-headed parrot",
+			"White-bellied sea eagle"
+		],
+		"correct": "Egret, great"
+	},
+	{
+		"q": "Managed zero tolerance leverage",
+		"a": [
+			"African red-eyed bulbul",
+			"Barbet, black-collared",
+			"Hippopotamus",
+			"Skua, great"
+		],
+		"correct": "African red-eyed bulbul"
+	},
+	{
+		"q": "Phased cohesive website",
+		"a": [
+			"Devil, tasmanian",
+			"Lapwing (unidentified)",
+			"Peccary, white-lipped",
+			"Potoroo"
+		],
+		"correct": "Peccary, white-lipped"
+	},
+	{
+		"q": "Persistent client-server software",
+		"a": [
+			"Denham's bustard",
+			"Dragon, western bearded",
+			"Eagle, pallas's fish",
+			"Tyrant flycatcher"
+		],
+		"correct": "Tyrant flycatcher"
+	},
+	{
+		"q": "Synergized mobile superstructure",
+		"a": [
+			"Chestnut weaver",
+			"Crab-eating fox",
+			"Osprey",
+			"Porcupine, tree"
+		],
+		"correct": "Osprey"
+	},
+	{
+		"q": "Multi-channelled methodical leverage",
+		"a": [
+			"Fox, arctic",
+			"Hedgehog, south african",
+			"Magpie, australian",
+			"Sheep, american bighorn"
+		],
+		"correct": "Fox, arctic"
+	},
+	{
+		"q": "Open-architected methodical product",
+		"a": [
+			"Bleu, blue-breasted cordon",
+			"Denham's bustard",
+			"Goose, greylag",
+			"Siskin, pine"
+		],
+		"correct": "Denham's bustard"
+	},
+	{
+		"q": "Reduced mobile archive",
+		"a": [
+			"Grizzly bear",
+			"Richardson's ground squirrel",
+			"Snake-necked turtle",
+			"Southern boubou"
+		],
+		"correct": "Snake-necked turtle"
+	},
+	{
+		"q": "Multi-lateral interactive Graphic Interface",
+		"a": [
+			"Bush dog",
+			"Cormorant, little",
+			"Frilled dragon",
+			"Hawk, galapagos"
+		],
+		"correct": "Frilled dragon"
+	},
+	{
+		"q": "Networked 3rd generation model",
+		"a": [
+			"Fox, arctic",
+			"Jabiru stork",
+			"North American red fox",
+			"Pied crow"
+		],
+		"correct": "Fox, arctic"
+	},
+	{
+		"q": "Multi-lateral actuating capacity",
+		"a": [
+			"Crake, african black",
+			"Hare, arctic",
+			"Macaw, blue and yellow",
+			"Tenrec, tailless"
+		],
+		"correct": "Macaw, blue and yellow"
+	},
+	{
+		"q": "Multi-layered zero tolerance hierarchy",
+		"a": [
+			"Black-crowned crane",
+			"Goliath heron",
+			"Rat, arboral spiny",
+			"Western spotted skunk"
+		],
+		"correct": "Black-crowned crane"
+	},
+	{
+		"q": "Devolved optimal success",
+		"a": [
+			"Civet cat",
+			"Eastern white pelican",
+			"Lilac-breasted roller",
+			"Yellow baboon"
+		],
+		"correct": "Yellow baboon"
+	},
+	{
+		"q": "Optional mobile time-frame",
+		"a": [
+			"Glossy starling (unidentified)",
+			"Great skua",
+			"Hawk-headed parrot",
+			"South American sea lion"
+		],
+		"correct": "Hawk-headed parrot"
+	},
+	{
+		"q": "Visionary 24 hour capacity",
+		"a": [
+			"Black curlew",
+			"Caracara, yellow-headed",
+			"Colobus, magistrate black",
+			"Squirrel, grey-footed"
+		],
+		"correct": "Caracara, yellow-headed"
+	},
+	{
+		"q": "Extended hybrid strategy",
+		"a": [
+			"Elegant crested tinamou",
+			"Mexican wolf",
+			"Porcupine, prehensile-tailed",
+			"Wallaby, bennett's"
+		],
+		"correct": "Porcupine, prehensile-tailed"
+	},
+	{
+		"q": "Compatible interactive approach",
+		"a": [
+			"Bird, black-throated butcher",
+			"Lechwe, kafue flats",
+			"Lemming, collared",
+			"Tiger snake"
+		],
+		"correct": "Bird, black-throated butcher"
+	},
+	{
+		"q": "Mandatory leading edge neural-net",
+		"a": [
+			"Deer, red",
+			"Dragon, asian water",
+			"Pampa gray fox",
+			"Trotter, lily"
+		],
+		"correct": "Dragon, asian water"
+	},
+	{
+		"q": "Function-based actuating application",
+		"a": [
+			"American woodcock",
+			"Dromedary camel",
+			"Pied avocet",
+			"Vulture, griffon"
+		],
+		"correct": "American woodcock"
+	},
+	{
+		"q": "Adaptive solution-oriented data-warehouse",
+		"a": [
+			"Cape wild cat",
+			"Godwit, hudsonian",
+			"Lemur, sportive",
+			"Squirrel, eastern fox"
+		],
+		"correct": "Squirrel, eastern fox"
+	},
+	{
+		"q": "Synergized foreground orchestration",
+		"a": [
+			"European beaver",
+			"Fat-tailed dunnart",
+			"Rattlesnake, horned",
+			"Trumpeter, dark-winged"
+		],
+		"correct": "European beaver"
+	},
+	{
+		"q": "Multi-tiered directional definition",
+		"a": [
+			"Great skua",
+			"Monitor, white-throated",
+			"Shrike, crimson-breasted",
+			"Sportive lemur"
+		],
+		"correct": "Great skua"
+	},
+	{
+		"q": "Re-engineered context-sensitive encryption",
+		"a": [
+			"Mongoose, yellow",
+			"Pintail, white-cheeked",
+			"Red-billed tropic bird",
+			"Small Indian mongoose"
+		],
+		"correct": "Small Indian mongoose"
+	},
+	{
+		"q": "Streamlined optimal concept",
+		"a": [
+			"Bengal vulture",
+			"Cobra, cape",
+			"Python, carpet",
+			"Red and blue macaw"
+		],
+		"correct": "Bengal vulture"
+	},
+	{
+		"q": "Synergistic grid-enabled monitoring",
+		"a": [
+			"Bear, grizzly",
+			"Coqui francolin",
+			"Cormorant, king",
+			"Pelican, eastern white"
+		],
+		"correct": "Bear, grizzly"
+	},
+	{
+		"q": "Exclusive global definition",
+		"a": [
+			"Blue and gold macaw",
+			"Bustard, stanley",
+			"Snake, racer",
+			"Western bearded dragon"
+		],
+		"correct": "Blue and gold macaw"
+	},
+	{
+		"q": "Fundamental regional help-desk",
+		"a": [
+			"Butterfly, tropical buckeye",
+			"Stork, greater adjutant",
+			"Tasmanian devil",
+			"Woodpecker, red-headed"
+		],
+		"correct": "Woodpecker, red-headed"
+	},
+	{
+		"q": "Object-based background system engine",
+		"a": [
+			"Cape white-eye",
+			"Crane, sandhill",
+			"Snake, green vine",
+			"Woylie"
+		],
+		"correct": "Crane, sandhill"
+	},
+	{
+		"q": "Ergonomic composite hub",
+		"a": [
+			"Dromedary camel",
+			"Red-necked phalarope",
+			"Starling, cape",
+			"Swainson's francolin"
+		],
+		"correct": "Red-necked phalarope"
+	},
+	{
+		"q": "Reduced optimal workforce",
+		"a": [
+			"Beisa oryx",
+			"Lizard, frilled",
+			"Possum, golden brush-tailed",
+			"Starling, red-shouldered glossy"
+		],
+		"correct": "Beisa oryx"
+	},
+	{
+		"q": "Digitized solution-oriented workforce",
+		"a": [
+			"Crane, blue",
+			"Falcon, peregrine",
+			"Turtle (unidentified)",
+			"Wapiti, elk,"
+		],
+		"correct": "Turtle (unidentified)"
+	},
+	{
+		"q": "Streamlined needs-based hub",
+		"a": [
+			"Dolphin, striped",
+			"Galapagos hawk",
+			"Giant otter",
+			"Mouse, four-striped grass"
+		],
+		"correct": "Dolphin, striped"
+	},
+	{
+		"q": "User-friendly encompassing neural-net",
+		"a": [
+			"Bleu, red-cheeked cordon",
+			"Red howler monkey",
+			"Spider, wolf",
+			"Stork, european"
+		],
+		"correct": "Spider, wolf"
+	},
+	{
+		"q": "Grass-roots even-keeled forecast",
+		"a": [
+			"Bulbul, black-eyed",
+			"Iguana, common green",
+			"Mandras tree shrew",
+			"Woodcock, american"
+		],
+		"correct": "Mandras tree shrew"
+	},
+	{
+		"q": "Organized user-facing model",
+		"a": [
+			"Beisa oryx",
+			"Galapagos hawk",
+			"Kangaroo, eastern grey",
+			"Mocking cliffchat"
+		],
+		"correct": "Mocking cliffchat"
+	},
+	{
+		"q": "Progressive reciprocal open architecture",
+		"a": [
+			"Greater rhea",
+			"Green-backed heron",
+			"Squirrel, european red",
+			"Tern, white-winged black"
+		],
+		"correct": "Tern, white-winged black"
+	},
+	{
+		"q": "Re-engineered multi-state installation",
+		"a": [
+			"Asian red fox",
+			"Cormorant, flightless",
+			"Monkey, red howler",
+			"Shelduck, european"
+		],
+		"correct": "Asian red fox"
+	},
+	{
+		"q": "Secured scalable adapter",
+		"a": [
+			"Cow, scottish highland",
+			"Penguin, magellanic",
+			"Scarlet macaw",
+			"Seal, northern fur"
+		],
+		"correct": "Seal, northern fur"
+	},
+	{
+		"q": "Virtual next generation intranet",
+		"a": [
+			"Cormorant, flightless",
+			"Cormorant, neotropic",
+			"Jaguar",
+			"Starfish, crown of thorns"
+		],
+		"correct": "Starfish, crown of thorns"
+	},
+	{
+		"q": "Open-source foreground toolset",
+		"a": [
+			"Albatross, galapagos",
+			"Gerenuk",
+			"Ibex",
+			"Timber wolf"
+		],
+		"correct": "Gerenuk"
+	},
+	{
+		"q": "Assimilated mission-critical concept",
+		"a": [
+			"Ant (unidentified)",
+			"Coqui partridge",
+			"Python, carpet",
+			"Two-toed sloth"
+		],
+		"correct": "Ant (unidentified)"
+	},
+	{
+		"q": "Synergistic intangible forecast",
+		"a": [
+			"Eagle, long-crested hawk",
+			"Greater kudu",
+			"Hyena, striped",
+			"Red-billed tropic bird"
+		],
+		"correct": "Red-billed tropic bird"
+	},
+	{
+		"q": "Reverse-engineered national project",
+		"a": [
+			"Cormorant, large",
+			"Darter, african",
+			"Kangaroo, red",
+			"Steenbuck"
+		],
+		"correct": "Darter, african"
+	},
+	{
+		"q": "Customer-focused bandwidth-monitored capacity",
+		"a": [
+			"Cobra, cape",
+			"Ringtail, common",
+			"Two-toed sloth",
+			"Waxbill, violet-eared"
+		],
+		"correct": "Two-toed sloth"
+	},
+	{
+		"q": "Adaptive hybrid concept",
+		"a": [
+			"Arctic fox",
+			"Hippopotamus",
+			"Long-necked turtle",
+			"Stanley bustard"
+		],
+		"correct": "Hippopotamus"
+	},
+	{
+		"q": "Managed even-keeled frame",
+		"a": [
+			"Black-cheeked waxbill",
+			"Indian mynah",
+			"Turkey, common",
+			"Urial"
+		],
+		"correct": "Turkey, common"
+	},
+	{
+		"q": "Integrated object-oriented strategy",
+		"a": [
+			"Eleven-banded armadillo (unidentified)",
+			"Tern, white-winged black",
+			"Tiger snake",
+			"Yellow-billed hornbill"
+		],
+		"correct": "Tern, white-winged black"
+	},
+	{
+		"q": "Adaptive bottom-line archive",
+		"a": [
+			"Australian sea lion",
+			"Black-winged stilt",
+			"Jungle kangaroo",
+			"Southern white-crowned shrike"
+		],
+		"correct": "Black-winged stilt"
+	},
+	{
+		"q": "Mandatory impactful complexity",
+		"a": [
+			"Bontebok",
+			"Coatimundi, white-nosed",
+			"Feral rock pigeon",
+			"Galapagos sea lion"
+		],
+		"correct": "Galapagos sea lion"
+	}
+]
