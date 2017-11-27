@@ -1,6 +1,7 @@
 function sleep (time) {
     return new Promise((resolve) => setTimeout(resolve, time));
 }
+let answers = JSON.parse(httpGet("/api/get_answers"));
 
 let selectAnswer = (q_num) => {
     // get the question element/text
@@ -31,13 +32,12 @@ let selectAnswer = (q_num) => {
     document.getElementById(q_id+"-"+ans_num).checked = true;
 }
 
-
 let takeTest = (json_data) => 
 {
     for (let q_num of Array(20).keys()) {
         // wait a second
         // window.setTimeout(function, milliseconds);
-        sleep(1000*q_num).then(() => {selectAnswer(q_num)})
+        sleep(200*q_num).then(() => {selectAnswer(q_num)})
     }
 }
 
