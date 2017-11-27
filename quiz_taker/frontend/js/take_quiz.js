@@ -36,41 +36,45 @@ let selectAnswer = (q_num) => {
         a.push(document.getElementById(q_id+"-"+i).value.substring(3));
     }
 
-    let ans_index = checkAnswers(q);
-    let prev_ans;
-    let ans_num;
+    // select an answer
+    let ans_index = checkAnswers(q); // get the index of the answer data
+    let prev_ans; // the answer data from previous attempts
+    let ans_num; // the number of the answer to be guessed
+
+    // if we've seen the question before...
     if (ans_index >= 0) {
         prev_ans = answers[ans_index];
+        // guess the correct answer if we know it
         if (prev_ans["correct"]) {
             ans_num = a.indexOf(prev_ans["correct"]);
         }
+        // otherwise, guess a previously-unguessed answer
+        // TODO: optimize the random guesses here
         else {
-            let i = 0;
-            for (let ans of a) {
+            for (let i = 0; i < a.length; i++ ) {
+                let ans = a[i];
                 if (prev_ans["guessed"].indexOf(ans) < 0) {
-                    console.log(prev_ans);
-                    console.log(i);
                     ans_num = i;
                     break;
                 }
-                i++;
             }
         }
     }
+    // if we haven't seen the answer before, guess randomly
+    // TODO: optimize random guesses here
     else {
         // get a random answer number 
         ans_num  = Math.floor(Math.random() * (num_answers - 0)); 
     }
 
-    // select that answer
-    console.log(q_id+"-"+ans_num);
+    // select the answer at ans_num
     document.getElementById(q_id+"-"+ans_num).checked = true;
 }
 
 let takeTest = (json_data) => 
 {
     for (let q_num of Array(20).keys()) {
-        // wait a second
+        // wait a bit
         // window.setTimeout(function, milliseconds);
         sleep(200*q_num).then(() => {selectAnswer(q_num)})
     }
