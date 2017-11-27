@@ -26,7 +26,7 @@ const createQuestion = (question, num) => {
     return `
         <div>
             <hr />
-            <p id="${q_id}" class="question">${num+1}. '${q}</p>
+            <p class="question">${num+1}. <span id="${q_id}">${q}</span></p>
             <ul id="${q_id}_answers" class="answers">
                 ${html_answers}
             </ul>
