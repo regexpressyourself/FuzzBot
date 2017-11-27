@@ -64,6 +64,3 @@ for (let question of quiz_questions) {
     }
 }
 
-quiz_form.appendChild(render(`
-    <input class="button-primary" value="Submit" type="submit">
-        `));
