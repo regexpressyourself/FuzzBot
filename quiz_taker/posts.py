@@ -1,4 +1,5 @@
-from quiz_taker import app, send_from_directory, jsonify, request, os, json, redirect
+from quiz_taker import app, send_from_directory, \
+        jsonify, request, os, json, redirect
 
 ##################################################
 # POST Requests
