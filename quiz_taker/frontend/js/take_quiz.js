@@ -5,7 +5,11 @@ let answers = JSON.parse(httpGet("/api/get_answers"));
 
 let checkAnswers = (q) => {
     let i = 0;
+    let answer_map = {};
     for (let ans of answers) {
+        // TODO: change this to a fuzzy check
+        // Perhaps iterate through all answers and select the 
+        // "closest" one
         if (q == ans["q"]){
             return i;
         }
@@ -75,8 +79,7 @@ let takeTest = (json_data) =>
 {
     for (let q_num of Array(20).keys()) {
         // wait a bit
-        // window.setTimeout(function, milliseconds);
-        sleep(200*q_num).then(() => {selectAnswer(q_num)})
+        sleep(300*q_num).then(() => {selectAnswer(q_num)})
     }
 }
 

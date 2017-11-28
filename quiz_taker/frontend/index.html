@@ -25,10 +25,12 @@
     </head>
 
     <body class="container">
+        <div id="header">
         <h1>Quiz Taker</h1>
         <p>A self-learning online quiz taker.</p>
 
-        <button class="button-primary" onclick="takeTest({})">Start test</button>
+        <button id="start-test" class="button-primary" onclick="takeTest({})">Start test</button>
+        </div>
 
         <form method="post" action="/api/send_quiz" accept-charset="utf-8">
             <div id="inner-quiz" class="twelve columns"></div>

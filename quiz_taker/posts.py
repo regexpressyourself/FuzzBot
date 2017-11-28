@@ -5,14 +5,14 @@ from quiz_taker import app, send_from_directory, \
 # POST Requests
 ##################################################
 
-SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+SITE_ROOT    = os.path.realpath(os.path.dirname(__file__))
 question_url = os.path.join(SITE_ROOT, 'frontend/config', 'quiz_data.json')
-quiz_data = json.load(open(question_url))
+quiz_data    = json.load(open(question_url))
+answer_url   = os.path.join(SITE_ROOT, 'frontend/config', 'answer_data.json')
 
-answer_url = os.path.join(SITE_ROOT, 'frontend/config', 'answer_data.json')
-
-num_correct = 0
-num_guessed = 0
+# stored globally in order to hold values in runtime over multiple requests
+num_correct           = 0
+num_guessed           = 0
 num_guessed_correctly = 0
 
 def find_question(q, answer_data):
@@ -37,8 +37,8 @@ def setup_ans(q_index, quest, answer_data):
     if q_index >= 0:
         ans = answer_data[q_index]
     else:
-        ans = {}
-        ans["q"] = quest
+        ans            = {}
+        ans["q"]       = quest
         ans["guessed"] = []
     return ans
 
@@ -48,13 +48,15 @@ def handle_post(request):
     global num_guessed_correctly
     answer_data = json.load(open(answer_url))
 
-    num_correct = 0
-    num_guessed = 0
+    num_correct           = 0
+    num_guessed           = 0
     num_guessed_correctly = 0
+
     for quest in request.form:
-        given_ans = request.form[quest][3:]
-        q_index   = find_question(quest, answer_data)
-        ans       = setup_ans(q_index, quest, answer_data)
+        given_ans_letter = request.form[quest][:1]
+        given_ans        = request.form[quest][3:]
+        q_index          = find_question(quest, answer_data)
+        ans              = setup_ans(q_index, quest, answer_data)
 
         # add the new guess to the guessed answers
         if given_ans not in ans["guessed"]:
@@ -67,13 +69,13 @@ def handle_post(request):
 
         # if we got it right, log it
         correct_ans = get_ans(quest)
-        is_correct  = correct_ans == given_ans
+        is_correct  = (correct_ans == given_ans)
         if is_correct:
             # if we guessed it right, log num_guessed_correctly
             if not ("correct" in ans):
                 num_guessed_correctly += 1
-            ans["correct"] = given_ans
-            num_correct  += 1
+            ans["correct"]  = given_ans
+            num_correct    += 1
 
         answer_data.append(ans)
 
@@ -81,10 +83,6 @@ def handle_post(request):
     with open(answer_url,"w") as fo:
         fo.write(json.dumps(answer_data))
     return
-
-
-
-
 
 @app.route('/api/send_quiz', methods=['POST', 'GET'])
 def send_quiz():
