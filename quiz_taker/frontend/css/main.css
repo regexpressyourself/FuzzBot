@@ -1,7 +1,24 @@
+body.container {
+    padding: 20px 0;
+}
 .question {
     font-weight: 600;
 }
 
 .answers > li {
     list-style-type: none;
+}
+
+#header {
+    text-align: center;
+    margin:auto;
+}
+
+#start-test {
+    width: 80%;
+    min-height: 60px;
+    font-size: 150%;
+    vertical-align: middle;
+    background-color: #33f05f;
+
 }
