@@ -1,24 +1,146 @@
 body.container {
     padding: 20px 0;
 }
+
 .question {
     font-weight: 600;
 }
 
-.answers > li {
+.answers> li {
     list-style-type: none;
 }
 
 #header {
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
-#start-test {
-    width: 80%;
-    min-height: 60px;
-    font-size: 150%;
-    vertical-align: middle;
-    background-color: #33f05f;
+#homepage> * {
+    margin: auto;
+    text-align: center;
+}
 
+#homepage h1 {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+#homepage button {
+    height: 10vh;
+    width: 20vw;
+    min-width: 175px;
+    min-height: 75px;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+#homepage {
+    height: 100vh;
+    width: 100vw;
+    background-color: #70c1b3;
+    font-size: 200%;
+}
+
+#test-body {
+    margin-left: 175px;
+}
+
+#subtitle {
+    font-size: 250%;
+    font-style: italic;
+}
+
+button.button-primary,
+input[type="submit"].button-primary {
+    background-color: #ffe066;
+    color: #50514f;
+    display: block;
+    margin: auto;
+}
+
+input[type="submit"].button-primary:hover,
+button.button-primary:hover {
+    background-color: #247ba0;
+}
+
+button.button-secondary,
+input[type="submit"].button-secondary {
+    background-color: #70c1b3;
+    color: #50514f;
+    display: block;
+    margin: auto;
+}
+
+input[type="submit"].button-secondary:hover,
+button.button-secondary:hover {
+    background-color: #247ba0;
+}
+
+.right-btn {
+    float: right;
+}
+
+.left-btn {
+    float: left;
+}
+
+.two-btn-container {
+    margin: auto;
+    width: 50vw;
+}
+
+#test-body #bot-image {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+
+#bot-image>img {
+    width: 100px;
+}
+
+#bot-chat {
+    position: relative;
+    background: #00aabb;
+    border-radius: 5px;
+    float: right;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+}
+
+#bot-chat:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+#bot-chat.top-chat {
+    float: none;
+    max-width: 100px;
+}
+
+#bot-chat.top-chat:after {
+    border-right-color: transparent;
+    border-top-color: #00aabb;
+    bottom: 0;
+    left: 50%;
+}
+
+#bot-chat.side-chat {
+    display: "block";
+    float: "right";
+}
+
+#bot-chat.side-chat:after {
+    border-top-color: transparent;
+    left: 0;
+    top: 50%;
+    border-right-color: #00aabb;
 }
