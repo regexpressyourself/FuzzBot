@@ -29,13 +29,18 @@ Everything is in the quiz_taker directory
 
 #### Views
 
-- `frontend/index.html`: homepage; shows the quiz
-- `frontend/results.html`: shows results from the quiz
+- `frontend/views/index.html`: homepage
+- `frontend/views/test.html`: shows the quiz
+- `frontend/views/results.html`: shows results from the quiz
 
 #### Configs
 
 - `frontend/config/answer_data.json`: the data given to the client with all previously-guessed Qs and As
 - `frontend/config/quiz_data.json`: the bank of questions and their correct answers
+
+#### Assets
+
+- `frontend/assets/robot.png`: image used for the robot
 
 #### JS 
 
@@ -52,26 +57,32 @@ Everything is in the quiz_taker directory
 ```
 .
 ├── __init__.py
-├── gets.py
-├── posts.py
 ├── statics.py
+├── posts.py
+├── gets.py
 │
 └── frontend
-    ├── index.html
-    ├── results.html
-    ├── package.json
-    ├── README.md
+    ├── README.md
+    ├── package.json
     │
-    ├── config
-    │   ├── answer_data.json
-    │   └── quiz_data.json
-    ├── css
-    │   ├── main.css
-    │   ├── normalize.css
-    │   └── skeleton.css
-    └── js
-        ├── generate_questions.js
-        ├── results.js
-        └── take_quiz.js
+    ├── views
+    │   ├── test.html
+    │   ├── results.html
+    │   └── index.html
+    │
+    ├── js
+    │   ├── take_quiz.js
+    │   ├── results.js
+    │   └── generate_questions.js
+    │
+    ├── css
+    │   └── main.css
+    │
+    ├── config
+    │   ├── quiz_data.json
+    │   └── answer_data.json
+    │
+    └── assets
+        └── robot.png
 ```
 

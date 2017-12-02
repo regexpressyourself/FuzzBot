@@ -24,28 +24,19 @@
               type="text/css" media="screen" charset="utf-8">
     </head>
 
-    <body class="container">
-        <h1>Results</h1>
-        <p>Here's how you did!</p>
-        <table>
-            <tr>
-                <th>Total Grade</th>
-                <td id="total-grade"></td>
-            </tr>
-            <tr>
-                <th>Number Guessed</th>
-                <td id="num-guessed"></td>
-            </tr>
-            <tr>
-                <th>Correct Guesses (%)</th>
-                <td id="guessed-correct"></td>
-            </tr>
-        </table>
-
-        <button class="button-primary" onclick="window.location.href='/'" href="/" >
-            Take Another Quiz
+    <body id="homepage" class="container">
+        <h1>Quiz Taker</h1>
+        <div>
+            <img src="/assets/robot.png" alt="Robot image">
+        </div>
+        <p id="subtitle" >A self-learning online quiz taker.</p>
+        <div>
+            
+        <button class="button-primary" onclick="window.location.href='/test'" href="/test" >
+            Take A Quiz
         </button>
-        <script charset="utf-8" src="./js/results.js"></script>
+        </div>
+        <p>Written by Sam Messina and Dan Jensen.</p>
     </body>
 
 </html>

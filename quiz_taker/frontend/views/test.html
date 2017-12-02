@@ -24,11 +24,15 @@
               type="text/css" media="screen" charset="utf-8">
     </head>
 
-    <body class="container">
+    <body id="test-body" class="container">
         <div id="header">
         <h1>Quiz Taker</h1>
         <p>A self-learning online quiz taker.</p>
 
+        <div id="bot-image">
+            <p class="side-chat" id="bot-chat">Welcome to Quiz Taker!</p>
+            <img src="/assets/robot.png" alt="Robot image">
+        </div>
         <button id="start-test" class="button-primary" onclick="takeTest({})">Start test</button>
         </div>
 
