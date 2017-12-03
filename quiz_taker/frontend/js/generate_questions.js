@@ -52,15 +52,18 @@ quiz_questions = JSON.parse(httpGet("/api/get_questions"));
 
 let quiz_form = document.getElementById("inner-quiz");
 let i = 0;
-for (let question of quiz_questions) {
-    let q_num     = quiz_questions.indexOf(question);
+let selected = [];
+while (i<20){
+    let selection = null;
+    do{
+        selection = Math.floor((Math.random() * quiz_questions.length));
+    }while(selected.includes(selection)==true)
+    let q_num     = i;
+    let question  = quiz_questions[selection];
     let new_quest = createQuestion(question, q_num);
     new_quest     = render(new_quest);
 
     quiz_form.appendChild(new_quest);
     i++;
-    if (i >= 20) {
-        break
-    }
 }
 
