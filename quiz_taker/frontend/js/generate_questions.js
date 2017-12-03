@@ -58,6 +58,7 @@ while (i<20){
     do{
         selection = Math.floor((Math.random() * quiz_questions.length));
     }while(selected.includes(selection)==true)
+    selected.push(selection);
     let q_num     = i;
     let question  = quiz_questions[selection];
     let new_quest = createQuestion(question, q_num);
