@@ -4,8 +4,9 @@ function sleep(time) {
 let previous_attempt_data = JSON.parse(httpGet("/api/get_answers"));
 
 let checkAnswers = (q) => {
-    let i = 0;
+    //let i = 0;
     let answer_map = {};
+    /*
     for (let ans of previous_attempt_data) {
         // TODO: change this to a fuzzy check
         // Perhaps iterate through all answers and select the 
@@ -14,6 +15,29 @@ let checkAnswers = (q) => {
             return i;
         }
         i++;
+    }*/
+    var options = {
+        shouldSort: true,
+        //tokenize: true,
+        includeScore: true,
+        threshold: 0.5,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 1,
+        keys: [
+            "q"
+        ]
+    };
+    var fuse = new Fuse(previous_attempt_data, options); // "list" is the item array
+    var result = fuse.search(q);
+    //return result;
+    console.log("length");
+    console.log(result.length);
+    if(result.length > 0){
+        console.log(result[0]['item']);
+        console.log(previous_attempt_data[previous_attempt_data.indexOf(result[0]['item'])]);
+        return previous_attempt_data.indexOf(result[0]['item']);
     }
     return -1;
 }
@@ -55,7 +79,24 @@ let selectAnswer = (q_num) => {
         known_q_data = previous_attempt_data[ans_index];
         // guess the correct answer if we know it
         if (known_q_data["correct"]) {
-            ans_num = answers.indexOf(known_q_data["correct"]);
+            //ans_num = answers.indexOf(known_q_data["correct"]);
+            var options = {
+                shouldSort: true,
+                //tokenize: true,
+                includeScore: true,
+                threshold: 0.3,
+                location: 0,
+                distance: 100,
+                maxPatternLength: 32,
+                minMatchCharLength: 1,
+                keys: [
+                    "q"
+                ]
+            };
+            var fuse = new Fuse(answers, options); // "list" is the item array
+            var result = fuse.search(known_q_data[correct]);
+
+
         }
         // otherwise, guess a previously-unguessed answer
         else {
