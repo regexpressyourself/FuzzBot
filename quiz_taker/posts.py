@@ -67,6 +67,11 @@ def handle_post(request):
         if not ("correct" in ans):
             num_guessed += 1
 
+        if q_index >= 0:
+            answer_data[q_index] = ans;
+        else:
+            answer_data.append(ans)
+
         # if we got it right, log it
         correct_ans = get_ans(quest)
         is_correct  = (correct_ans == given_ans)
@@ -77,7 +82,6 @@ def handle_post(request):
             ans["correct"]  = given_ans
             num_correct    += 1
 
-        answer_data.append(ans)
 
     # update our answers file with the new attempt
     with open(answer_url,"w") as fo:
