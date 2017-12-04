@@ -44,67 +44,59 @@ let selectAnswer = (q_num) => {
     // iterate through the answers, making an array to query against
     for (let i = 0; i < num_answers; i++) {
         let a_id = q_id + "-" + i;
-        answers.push(document.getElementById(q_id + "-" + i).value.substring(3));
+        answers.push({'a':document.getElementById(q_id + "-" + i).value.substring(3)});
     }
 
     // select an answer
-    let ans_index = checkAnswers(q); // get the index of the answer data
-    let known_q_data; // the answer data from previous attempts
+    let ans_data = fuzz(q, previous_attempt_data, 0.4, [{name:'q', weight:0.8},{name:'correct', weight:0.1}, {name:'guessed', weight:0.1}]); // get the index of the answer data
     let ans_num; // the number of the answer to be guessed
-
+    let chosen_answer; //answer selected
     // if we've seen the question before...
-    if (ans_index >= 0) {
-        known_q_data = previous_attempt_data[ans_index];
+    if (ans_data.length>0) {
         // guess the correct answer if we know it
-        if (known_q_data["correct"]) {
-            //ans_num = answers.indexOf(known_q_data["correct"]);
-            var options = {
-                shouldSort: true,
-                //tokenize: true,
-                includeScore: true,
-                threshold: 0.3,
-                location: 0,
-                distance: 100,
-                maxPatternLength: 32,
-                minMatchCharLength: 1,
-                keys: [
-                    "q"
-                ]
-            };
-            var fuse = new Fuse(answers, options); // "list" is the item array
-            var result = fuse.search(known_q_data[correct]);
-
-
+        if(ans_data[0]['item']["correct"]){
+            chosen_answer = fuzz(ans_data[0]['item']["correct"], answers, 1, ['a']);
+            if (chosen_answer.length>0){
+                ans_num = answers.findIndex(i => i.a === chosen_answer[0]['item']['a']);
+            }else{
+                chosen_answer = antiguess(ans_data, q, answers);
+                ans_num = answers.findIndex(i => i.a === chosen_answer[0]['item']['a']);
+            }
         }
         // otherwise, guess a previously-unguessed answer
         else {
-            ans_num = guessUnguessedAnswer(known_q_data, answers);
+            chosen_answer = antiguess(ans_data, q, answers);
+            ans_num = answers.findIndex(i => i.a === chosen_answer[0]['item']['a']);
         }
     }
     // if we haven't seen the answer before, guess randomly
     else {
-        ans_num = naiveGuess(num_answers);
+        chosen_answer = guess(q, answers);
+        ans_num = answers.findIndex(i => i.a === chosen_answer[0]['item']['a']);
     }
     // select the answer at ans_num
     document.getElementById(q_id + "-" + ans_num).checked = true;
 }
 
-let naiveGuess = (num_answers) => {
-    // TODO: optimize the random guesses here
-    return Math.floor(Math.random() * num_answers);
-}
-
-let guessUnguessedAnswer = (known_q_data, answers) => {
-    // TODO: optimize the educated guesses here
-    let ans_num = -1;
-    for (let i = 0; i < answers.length; i++) {
-        let ans = answers[i];
-        if (known_q_data["guessed"].indexOf(ans) < 0) {
-            ans_num = i;
-            break;
+let antiguess = (ans_data, question, answers) => {
+    let copyanswers = answers.slice(0);
+    let incorrect = ans_data[0]['item']['guessed'];
+    for (let thing of incorrect) {
+        if(copyanswers.findIndex(i => i.a === thing)>=0){
+            copyanswers.splice(copyanswers.findIndex(i => i.a === thing), 1);
         }
     }
-    return ans_num;
+    let data = fuzz(incorrect.join(" "), copyanswers, 1, ['a']);
+    if (data.length>0){
+        return [data[data.length-1]];
+    }else{
+        return guess(question, answers);
+    }
+}
+
+let guess = (question, answers) => {
+    let chosen_answer = fuzz(question, answers, 1.0, ['a']);
+    return chosen_answer;
 }
 
 let changeRobotCaption = () => {
