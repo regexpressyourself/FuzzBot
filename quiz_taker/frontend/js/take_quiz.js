@@ -3,43 +3,21 @@ function sleep(time) {
 }
 let previous_attempt_data = JSON.parse(httpGet("/api/get_answers"));
 
-let checkAnswers = (q) => {
-    //let i = 0;
-    let answer_map = {};
-    /*
-    for (let ans of previous_attempt_data) {
-        // TODO: change this to a fuzzy check
-        // Perhaps iterate through all answers and select the 
-        // "closest" one
-        if (q == ans["q"]) {
-            return i;
-        }
-        i++;
-    }*/
+let fuzz = (search, array, threshold, keys) => {
     var options = {
         shouldSort: true,
         //tokenize: true,
         includeScore: true,
-        threshold: 0.5,
+        threshold: threshold,
         location: 0,
         distance: 100,
-        maxPatternLength: 32,
+        maxPatternLength: 100,
         minMatchCharLength: 1,
-        keys: [
-            "q"
-        ]
+        keys: keys
     };
-    var fuse = new Fuse(previous_attempt_data, options); // "list" is the item array
-    var result = fuse.search(q);
-    //return result;
-    console.log("length");
-    console.log(result.length);
-    if(result.length > 0){
-        console.log(result[0]['item']);
-        console.log(previous_attempt_data[previous_attempt_data.indexOf(result[0]['item'])]);
-        return previous_attempt_data.indexOf(result[0]['item']);
-    }
-    return -1;
+    var fuse = new Fuse(array, options);
+    var result = fuse.search(search);
+    return result;
 }
 
 let selectAnswer = (q_num) => {
