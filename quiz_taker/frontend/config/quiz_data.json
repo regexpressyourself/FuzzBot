@@ -1,932 +1,801 @@
-[
-	{
-		"q": "Quality-focused clear-thinking firmware",
-		"a": [
-			"Arctic tern",
-			"Bird, pied butcher",
-			"Dog, black-tailed prairie",
-			"Giraffe"
-		],
-		"correct": "Arctic tern"
-	},
-	{
-		"q": "Profit-focused full-range intranet",
-		"a": [
-			"Cockatoo, roseate",
-			"European red squirrel",
-			"Sugar glider",
-			"White-fronted bee-eater"
-		],
-		"correct": "Sugar glider"
-	},
-	{
-		"q": "Implemented value-added frame",
-		"a": [
-			"Carpet snake",
-			"Eurasian red squirrel",
-			"Mallard",
-			"Snake, western patch-nosed"
-		],
-		"correct": "Snake, western patch-nosed"
-	},
-	{
-		"q": "Down-sized grid-enabled Graphic Interface",
-		"a": [
-			"Greater sage grouse",
-			"Lion, australian sea",
-			"Peregrine falcon",
-			"Tawny eagle"
-		],
-		"correct": "Lion, australian sea"
-	},
-	{
-		"q": "Vision-oriented zero tolerance function",
-		"a": [
-			"Caracara (unidentified)",
-			"Indian mynah",
-			"Praying mantis (unidentified)",
-			"Timber wolf"
-		],
-		"correct": "Indian mynah"
-	},
-	{
-		"q": "Robust asymmetric projection",
-		"a": [
-			"Australian spiny anteater",
-			"Black bear",
-			"Dark-winged trumpeter",
-			"Zebra, common"
-		],
-		"correct": "Dark-winged trumpeter"
-	},
-	{
-		"q": "Mandatory zero defect migration",
-		"a": [
-			"Bat, madagascar fruit",
-			"Grey phalarope",
-			"Levaillant's barbet",
-			"Wild boar"
-		],
-		"correct": "Grey phalarope"
-	},
-	{
-		"q": "Cross-platform interactive infrastructure",
-		"a": [
-			"Kite, black",
-			"Long-finned pilot whale",
-			"Possum, common brushtail",
-			"Shrew, mandras tree"
-		],
-		"correct": "Possum, common brushtail"
-	},
-	{
-		"q": "Multi-tiered solution-oriented product",
-		"a": [
-			"Mexican boa",
-			"Vine snake (unidentified)",
-			"Wallaroo, common",
-			"Woodchuck"
-		],
-		"correct": "Wallaroo, common"
-	},
-	{
-		"q": "Multi-layered 6th generation Graphical User Interface",
-		"a": [
-			"American Virginia opossum",
-			"American buffalo",
-			"Racer, blue",
-			"Yellow mongoose"
-		],
-		"correct": "Yellow mongoose"
-	},
-	{
-		"q": "Seamless dedicated data-warehouse",
-		"a": [
-			"Defassa waterbuck",
-			"Eagle, bald",
-			"Hoopoe, eurasian",
-			"Western patch-nosed snake"
-		],
-		"correct": "Western patch-nosed snake"
-	},
-	{
-		"q": "Automated hybrid challenge",
-		"a": [
-			"African wild cat",
-			"Eurasian beaver",
-			"Kangaroo, brush-tailed rat",
-			"Squirrel, thirteen-lined"
-		],
-		"correct": "Eurasian beaver"
-	},
-	{
-		"q": "Organized even-keeled open system",
-		"a": [
-			"Deer, black-tailed",
-			"Eagle owl (unidentified)",
-			"Penguin, galapagos",
-			"Stork, black-necked"
-		],
-		"correct": "Deer, black-tailed"
-	},
-	{
-		"q": "Down-sized methodical contingency",
-		"a": [
-			"African red-eyed bulbul",
-			"Barasingha deer",
-			"European stork",
-			"Otter, giant"
-		],
-		"correct": "African red-eyed bulbul"
-	},
-	{
-		"q": "Reduced national support",
-		"a": [
-			"Asian lion",
-			"Grouse, greater sage",
-			"Silver-backed jackal",
-			"Squirrel, arctic ground"
-		],
-		"correct": "Squirrel, arctic ground"
-	},
-	{
-		"q": "Devolved tertiary contingency",
-		"a": [
-			"Crown of thorns starfish",
-			"Monster, gila",
-			"Oriental white-backed vulture",
-			"Raccoon, common"
-		],
-		"correct": "Raccoon, common"
-	},
-	{
-		"q": "Face to face next generation contingency",
-		"a": [
-			"Legaan, Monitor (unidentified)",
-			"Pheasant, ring-necked",
-			"Smith's bush squirrel",
-			"Starling, red-shouldered glossy"
-		],
-		"correct": "Pheasant, ring-necked"
-	},
-	{
-		"q": "Multi-lateral 4th generation migration",
-		"a": [
-			"Bison, american",
-			"Blue crane",
-			"Jaeger, long-tailed",
-			"Sally lightfoot crab"
-		],
-		"correct": "Sally lightfoot crab"
-	},
-	{
-		"q": "Versatile next generation contingency",
-		"a": [
-			"Crowned hawk-eagle",
-			"Marmot, hoary",
-			"Peregrine falcon",
-			"White-throated toucan"
-		],
-		"correct": "Peregrine falcon"
-	},
-	{
-		"q": "Assimilated tertiary forecast",
-		"a": [
-			"European stork",
-			"Macaque, bonnet",
-			"Pied kingfisher",
-			"Short-beaked echidna"
-		],
-		"correct": "Macaque, bonnet"
-	},
-	{
-		"q": "Enhanced bottom-line throughput",
-		"a": [
-			"Hawk, red-tailed",
-			"Long-tailed jaeger",
-			"Malay squirrel (unidentified)",
-			"Sea birds (unidentified)"
-		],
-		"correct": "Long-tailed jaeger"
-	},
-	{
-		"q": "Reverse-engineered web-enabled firmware",
-		"a": [
-			"African polecat",
-			"Bushbuck",
-			"Green-backed heron",
-			"Vulture, turkey"
-		],
-		"correct": "African polecat"
-	},
-	{
-		"q": "Sharable empowering protocol",
-		"a": [
-			"Campo flicker",
-			"Gazelle, thomson's",
-			"Rhinoceros, square-lipped",
-			"Rose-ringed parakeet"
-		],
-		"correct": "Campo flicker"
-	},
-	{
-		"q": "Innovative 24 hour framework",
-		"a": [
-			"Bird, secretary",
-			"Ibis, sacred",
-			"Lion, asian",
-			"Red-shouldered glossy starling"
-		],
-		"correct": "Red-shouldered glossy starling"
-	},
-	{
-		"q": "Diverse optimal installation",
-		"a": [
-			"Squirrel, richardson's ground",
-			"Tortoise, burmese brown mountain",
-			"Wattled crane",
-			"Wolf spider"
-		],
-		"correct": "Squirrel, richardson's ground"
-	},
-	{
-		"q": "Fundamental system-worthy budgetary management",
-		"a": [
-			"Black-cheeked waxbill",
-			"Blue-tongued skink",
-			"Bulbul, black-eyed",
-			"Egret, snowy"
-		],
-		"correct": "Black-cheeked waxbill"
-	},
-	{
-		"q": "Multi-tiered global installation",
-		"a": [
-			"Lion, southern sea",
-			"Little grebe",
-			"Lizard, mexican beaded",
-			"Vulture, griffon"
-		],
-		"correct": "Vulture, griffon"
-	},
-	{
-		"q": "Integrated encompassing task-force",
-		"a": [
-			"Black-cheeked waxbill",
-			"Flamingo, roseat",
-			"Slender loris",
-			"Three-banded plover"
-		],
-		"correct": "Flamingo, roseat"
-	},
-	{
-		"q": "Fully-configurable optimizing workforce",
-		"a": [
-			"Barbet, levaillant's",
-			"Fowl, helmeted guinea",
-			"Grant's gazelle",
-			"Pygmy possum"
-		],
-		"correct": "Barbet, levaillant's"
-	},
-	{
-		"q": "Multi-tiered 3rd generation challenge",
-		"a": [
-			"Goldeneye, barrows",
-			"Lion, steller's sea",
-			"Macaw, blue and gold",
-			"Malleefowl"
-		],
-		"correct": "Goldeneye, barrows"
-	},
-	{
-		"q": "Quality-focused object-oriented process improvement",
-		"a": [
-			"Antelope ground squirrel",
-			"Boa, emerald green tree",
-			"Margay",
-			"Racer snake"
-		],
-		"correct": "Antelope ground squirrel"
-	},
-	{
-		"q": "Networked dynamic collaboration",
-		"a": [
-			"Bushbuck",
-			"Chickadee, black-capped",
-			"Gecko, bent-toed",
-			"Little heron"
-		],
-		"correct": "Gecko, bent-toed"
-	},
-	{
-		"q": "Open-source mobile open architecture",
-		"a": [
-			"Blackbird, red-winged",
-			"Cape fox",
-			"Galapagos penguin",
-			"Spotted deer"
-		],
-		"correct": "Galapagos penguin"
-	},
-	{
-		"q": "Configurable neutral hierarchy",
-		"a": [
-			"Eastern boa constrictor",
-			"Goldeneye, common",
-			"Openbill stork",
-			"Shrike, southern white-crowned"
-		],
-		"correct": "Shrike, southern white-crowned"
-	},
-	{
-		"q": "Synergized clear-thinking moderator",
-		"a": [
-			"Caracal",
-			"Common genet",
-			"Common waterbuck",
-			"Trotter, lily"
-		],
-		"correct": "Trotter, lily"
-	},
-	{
-		"q": "Phased well-modulated migration",
-		"a": [
-			"African snake (unidentified)",
-			"Little heron",
-			"Red-winged hawk (unidentified)",
-			"Rhesus macaque"
-		],
-		"correct": "African snake (unidentified)"
-	},
-	{
-		"q": "Multi-lateral content-based database",
-		"a": [
-			"Bear, black",
-			"Bleeding heart monkey",
-			"Burmese black mountain tortoise",
-			"Crane, blue"
-		],
-		"correct": "Burmese black mountain tortoise"
-	},
-	{
-		"q": "Automated next generation monitoring",
-		"a": [
-			"Goose, knob-nosed",
-			"Jaguarundi",
-			"Long-nosed bandicoot",
-			"Sloth, two-toed tree"
-		],
-		"correct": "Goose, knob-nosed"
-	},
-	{
-		"q": "Pre-emptive optimizing paradigm",
-		"a": [
-			"Dove, laughing",
-			"Fox, asian red",
-			"Stone sheep",
-			"Whale, killer"
-		],
-		"correct": "Whale, killer"
-	},
-	{
-		"q": "User-centric intangible support",
-		"a": [
-			"Flicker, field",
-			"Moccasin, water",
-			"Pigeon, feral rock",
-			"Spoonbill, european"
-		],
-		"correct": "Flicker, field"
-	},
-	{
-		"q": "Face to face full-range projection",
-		"a": [
-			"Brown hyena",
-			"Rat, white-faced tree",
-			"Red howler monkey",
-			"Snake, buttermilk"
-		],
-		"correct": "Brown hyena"
-	},
-	{
-		"q": "Profound regional solution",
-		"a": [
-			"Bleu, blue-breasted cordon",
-			"Sockeye salmon",
-			"Swan, black",
-			"White-nosed coatimundi"
-		],
-		"correct": "Swan, black"
-	},
-	{
-		"q": "Business-focused well-modulated archive",
-		"a": [
-			"Dark-winged trumpeter",
-			"Frilled dragon",
-			"Galapagos albatross",
-			"Marmot, hoary"
-		],
-		"correct": "Frilled dragon"
-	},
-	{
-		"q": "Synergistic exuding time-frame",
-		"a": [
-			"American badger",
-			"Bird, magnificent frigate",
-			"European beaver",
-			"Red-headed woodpecker"
-		],
-		"correct": "Red-headed woodpecker"
-	},
-	{
-		"q": "Networked mobile budgetary management",
-		"a": [
-			"American marten",
-			"Egret, great",
-			"Hawk-headed parrot",
-			"White-bellied sea eagle"
-		],
-		"correct": "Egret, great"
-	},
-	{
-		"q": "Managed zero tolerance leverage",
-		"a": [
-			"African red-eyed bulbul",
-			"Barbet, black-collared",
-			"Hippopotamus",
-			"Skua, great"
-		],
-		"correct": "African red-eyed bulbul"
-	},
-	{
-		"q": "Phased cohesive website",
-		"a": [
-			"Devil, tasmanian",
-			"Lapwing (unidentified)",
-			"Peccary, white-lipped",
-			"Potoroo"
-		],
-		"correct": "Peccary, white-lipped"
-	},
-	{
-		"q": "Persistent client-server software",
-		"a": [
-			"Denham's bustard",
-			"Dragon, western bearded",
-			"Eagle, pallas's fish",
-			"Tyrant flycatcher"
-		],
-		"correct": "Tyrant flycatcher"
-	},
-	{
-		"q": "Synergized mobile superstructure",
-		"a": [
-			"Chestnut weaver",
-			"Crab-eating fox",
-			"Osprey",
-			"Porcupine, tree"
-		],
-		"correct": "Osprey"
-	},
-	{
-		"q": "Multi-channelled methodical leverage",
-		"a": [
-			"Fox, arctic",
-			"Hedgehog, south african",
-			"Magpie, australian",
-			"Sheep, american bighorn"
-		],
-		"correct": "Fox, arctic"
-	},
-	{
-		"q": "Open-architected methodical product",
-		"a": [
-			"Bleu, blue-breasted cordon",
-			"Denham's bustard",
-			"Goose, greylag",
-			"Siskin, pine"
-		],
-		"correct": "Denham's bustard"
-	},
-	{
-		"q": "Reduced mobile archive",
-		"a": [
-			"Grizzly bear",
-			"Richardson's ground squirrel",
-			"Snake-necked turtle",
-			"Southern boubou"
-		],
-		"correct": "Snake-necked turtle"
-	},
-	{
-		"q": "Multi-lateral interactive Graphic Interface",
-		"a": [
-			"Bush dog",
-			"Cormorant, little",
-			"Frilled dragon",
-			"Hawk, galapagos"
-		],
-		"correct": "Frilled dragon"
-	},
-	{
-		"q": "Networked 3rd generation model",
-		"a": [
-			"Fox, arctic",
-			"Jabiru stork",
-			"North American red fox",
-			"Pied crow"
-		],
-		"correct": "Fox, arctic"
-	},
-	{
-		"q": "Multi-lateral actuating capacity",
-		"a": [
-			"Crake, african black",
-			"Hare, arctic",
-			"Macaw, blue and yellow",
-			"Tenrec, tailless"
-		],
-		"correct": "Macaw, blue and yellow"
-	},
-	{
-		"q": "Multi-layered zero tolerance hierarchy",
-		"a": [
-			"Black-crowned crane",
-			"Goliath heron",
-			"Rat, arboral spiny",
-			"Western spotted skunk"
-		],
-		"correct": "Black-crowned crane"
-	},
-	{
-		"q": "Devolved optimal success",
-		"a": [
-			"Civet cat",
-			"Eastern white pelican",
-			"Lilac-breasted roller",
-			"Yellow baboon"
-		],
-		"correct": "Yellow baboon"
-	},
-	{
-		"q": "Optional mobile time-frame",
-		"a": [
-			"Glossy starling (unidentified)",
-			"Great skua",
-			"Hawk-headed parrot",
-			"South American sea lion"
-		],
-		"correct": "Hawk-headed parrot"
-	},
-	{
-		"q": "Visionary 24 hour capacity",
-		"a": [
-			"Black curlew",
-			"Caracara, yellow-headed",
-			"Colobus, magistrate black",
-			"Squirrel, grey-footed"
-		],
-		"correct": "Caracara, yellow-headed"
-	},
-	{
-		"q": "Extended hybrid strategy",
-		"a": [
-			"Elegant crested tinamou",
-			"Mexican wolf",
-			"Porcupine, prehensile-tailed",
-			"Wallaby, bennett's"
-		],
-		"correct": "Porcupine, prehensile-tailed"
-	},
-	{
-		"q": "Compatible interactive approach",
-		"a": [
-			"Bird, black-throated butcher",
-			"Lechwe, kafue flats",
-			"Lemming, collared",
-			"Tiger snake"
-		],
-		"correct": "Bird, black-throated butcher"
-	},
-	{
-		"q": "Mandatory leading edge neural-net",
-		"a": [
-			"Deer, red",
-			"Dragon, asian water",
-			"Pampa gray fox",
-			"Trotter, lily"
-		],
-		"correct": "Dragon, asian water"
-	},
-	{
-		"q": "Function-based actuating application",
-		"a": [
-			"American woodcock",
-			"Dromedary camel",
-			"Pied avocet",
-			"Vulture, griffon"
-		],
-		"correct": "American woodcock"
-	},
-	{
-		"q": "Adaptive solution-oriented data-warehouse",
-		"a": [
-			"Cape wild cat",
-			"Godwit, hudsonian",
-			"Lemur, sportive",
-			"Squirrel, eastern fox"
-		],
-		"correct": "Squirrel, eastern fox"
-	},
-	{
-		"q": "Synergized foreground orchestration",
-		"a": [
-			"European beaver",
-			"Fat-tailed dunnart",
-			"Rattlesnake, horned",
-			"Trumpeter, dark-winged"
-		],
-		"correct": "European beaver"
-	},
-	{
-		"q": "Multi-tiered directional definition",
-		"a": [
-			"Great skua",
-			"Monitor, white-throated",
-			"Shrike, crimson-breasted",
-			"Sportive lemur"
-		],
-		"correct": "Great skua"
-	},
-	{
-		"q": "Re-engineered context-sensitive encryption",
-		"a": [
-			"Mongoose, yellow",
-			"Pintail, white-cheeked",
-			"Red-billed tropic bird",
-			"Small Indian mongoose"
-		],
-		"correct": "Small Indian mongoose"
-	},
-	{
-		"q": "Streamlined optimal concept",
-		"a": [
-			"Bengal vulture",
-			"Cobra, cape",
-			"Python, carpet",
-			"Red and blue macaw"
-		],
-		"correct": "Bengal vulture"
-	},
-	{
-		"q": "Synergistic grid-enabled monitoring",
-		"a": [
-			"Bear, grizzly",
-			"Coqui francolin",
-			"Cormorant, king",
-			"Pelican, eastern white"
-		],
-		"correct": "Bear, grizzly"
-	},
-	{
-		"q": "Exclusive global definition",
-		"a": [
-			"Blue and gold macaw",
-			"Bustard, stanley",
-			"Snake, racer",
-			"Western bearded dragon"
-		],
-		"correct": "Blue and gold macaw"
-	},
-	{
-		"q": "Fundamental regional help-desk",
-		"a": [
-			"Butterfly, tropical buckeye",
-			"Stork, greater adjutant",
-			"Tasmanian devil",
-			"Woodpecker, red-headed"
-		],
-		"correct": "Woodpecker, red-headed"
-	},
-	{
-		"q": "Object-based background system engine",
-		"a": [
-			"Cape white-eye",
-			"Crane, sandhill",
-			"Snake, green vine",
-			"Woylie"
-		],
-		"correct": "Crane, sandhill"
-	},
-	{
-		"q": "Ergonomic composite hub",
-		"a": [
-			"Dromedary camel",
-			"Red-necked phalarope",
-			"Starling, cape",
-			"Swainson's francolin"
-		],
-		"correct": "Red-necked phalarope"
-	},
-	{
-		"q": "Reduced optimal workforce",
-		"a": [
-			"Beisa oryx",
-			"Lizard, frilled",
-			"Possum, golden brush-tailed",
-			"Starling, red-shouldered glossy"
-		],
-		"correct": "Beisa oryx"
-	},
-	{
-		"q": "Digitized solution-oriented workforce",
-		"a": [
-			"Crane, blue",
-			"Falcon, peregrine",
-			"Turtle (unidentified)",
-			"Wapiti, elk,"
-		],
-		"correct": "Turtle (unidentified)"
-	},
-	{
-		"q": "Streamlined needs-based hub",
-		"a": [
-			"Dolphin, striped",
-			"Galapagos hawk",
-			"Giant otter",
-			"Mouse, four-striped grass"
-		],
-		"correct": "Dolphin, striped"
-	},
-	{
-		"q": "User-friendly encompassing neural-net",
-		"a": [
-			"Bleu, red-cheeked cordon",
-			"Red howler monkey",
-			"Spider, wolf",
-			"Stork, european"
-		],
-		"correct": "Spider, wolf"
-	},
-	{
-		"q": "Grass-roots even-keeled forecast",
-		"a": [
-			"Bulbul, black-eyed",
-			"Iguana, common green",
-			"Mandras tree shrew",
-			"Woodcock, american"
-		],
-		"correct": "Mandras tree shrew"
-	},
-	{
-		"q": "Organized user-facing model",
-		"a": [
-			"Beisa oryx",
-			"Galapagos hawk",
-			"Kangaroo, eastern grey",
-			"Mocking cliffchat"
-		],
-		"correct": "Mocking cliffchat"
-	},
-	{
-		"q": "Progressive reciprocal open architecture",
-		"a": [
-			"Greater rhea",
-			"Green-backed heron",
-			"Squirrel, european red",
-			"Tern, white-winged black"
-		],
-		"correct": "Tern, white-winged black"
-	},
-	{
-		"q": "Re-engineered multi-state installation",
-		"a": [
-			"Asian red fox",
-			"Cormorant, flightless",
-			"Monkey, red howler",
-			"Shelduck, european"
-		],
-		"correct": "Asian red fox"
-	},
-	{
-		"q": "Secured scalable adapter",
-		"a": [
-			"Cow, scottish highland",
-			"Penguin, magellanic",
-			"Scarlet macaw",
-			"Seal, northern fur"
-		],
-		"correct": "Seal, northern fur"
-	},
-	{
-		"q": "Virtual next generation intranet",
-		"a": [
-			"Cormorant, flightless",
-			"Cormorant, neotropic",
-			"Jaguar",
-			"Starfish, crown of thorns"
-		],
-		"correct": "Starfish, crown of thorns"
-	},
-	{
-		"q": "Open-source foreground toolset",
-		"a": [
-			"Albatross, galapagos",
-			"Gerenuk",
-			"Ibex",
-			"Timber wolf"
-		],
-		"correct": "Gerenuk"
-	},
-	{
-		"q": "Assimilated mission-critical concept",
-		"a": [
-			"Ant (unidentified)",
-			"Coqui partridge",
-			"Python, carpet",
-			"Two-toed sloth"
-		],
-		"correct": "Ant (unidentified)"
-	},
-	{
-		"q": "Synergistic intangible forecast",
-		"a": [
-			"Eagle, long-crested hawk",
-			"Greater kudu",
-			"Hyena, striped",
-			"Red-billed tropic bird"
-		],
-		"correct": "Red-billed tropic bird"
-	},
-	{
-		"q": "Reverse-engineered national project",
-		"a": [
-			"Cormorant, large",
-			"Darter, african",
-			"Kangaroo, red",
-			"Steenbuck"
-		],
-		"correct": "Darter, african"
-	},
-	{
-		"q": "Customer-focused bandwidth-monitored capacity",
-		"a": [
-			"Cobra, cape",
-			"Ringtail, common",
-			"Two-toed sloth",
-			"Waxbill, violet-eared"
-		],
-		"correct": "Two-toed sloth"
-	},
-	{
-		"q": "Adaptive hybrid concept",
-		"a": [
-			"Arctic fox",
-			"Hippopotamus",
-			"Long-necked turtle",
-			"Stanley bustard"
-		],
-		"correct": "Hippopotamus"
-	},
-	{
-		"q": "Managed even-keeled frame",
-		"a": [
-			"Black-cheeked waxbill",
-			"Indian mynah",
-			"Turkey, common",
-			"Urial"
-		],
-		"correct": "Turkey, common"
-	},
-	{
-		"q": "Integrated object-oriented strategy",
-		"a": [
-			"Eleven-banded armadillo (unidentified)",
-			"Tern, white-winged black",
-			"Tiger snake",
-			"Yellow-billed hornbill"
-		],
-		"correct": "Tern, white-winged black"
-	},
-	{
-		"q": "Adaptive bottom-line archive",
-		"a": [
-			"Australian sea lion",
-			"Black-winged stilt",
-			"Jungle kangaroo",
-			"Southern white-crowned shrike"
-		],
-		"correct": "Black-winged stilt"
-	},
-	{
-		"q": "Mandatory impactful complexity",
-		"a": [
-			"Bontebok",
-			"Coatimundi, white-nosed",
-			"Feral rock pigeon",
-			"Galapagos sea lion"
-		],
-		"correct": "Galapagos sea lion"
-	}
-]
+[{
+    "q": "A flashing red traffic light signifies that a driver should do what?",
+    "a": ["stop",
+        "speed up",
+        "proceed with caution",
+        "honk the horn"
+    ],
+    "correct": "stop"
+}, {
+    "q": "A knish is traditionally stuffed with what filling?",
+    "a": ["potato",
+        "creamed corn",
+        "lemon custard",
+        "raspberry jelly"
+    ],
+    "correct": "potato"
+}, {
+    "q": "A pita is a type of what?",
+    "a": ["fresh fruit",
+        "flat bread",
+        "French tart",
+        "friend bean dip"
+    ],
+    "correct": "flat bread"
+}, {
+    "q": "A portrait that comically exaggerates a person's physical traits is called a what?",
+    "a": ["landscape",
+        "caricature",
+        "still life",
+        "Impressionism"
+    ],
+    "correct": "caricature"
+}, {
+    "q": "A second-year college student is usually called a what?",
+    "a": ["sophomore",
+        "senior",
+        "freshman ",
+        "junior "
+    ],
+    "correct": "sophomore"
+}, {
+    "q": "A student who earns a J.D. can begin his or her career as a what?",
+    "a": ["lawyer",
+        "bricklayer",
+        "doctor",
+        "accountant"
+    ],
+    "correct": "lawyer"
+}, {
+    "q": "A triptych is a work of art that is painted on how many panels?",
+    "a": ["two",
+        "three",
+        "five",
+        "eight"
+    ],
+    "correct": "three"
+}, {
+    "q": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+    "a": ["oneself",
+        "other people",
+        "little made large",
+        "hued in green and blue"
+    ],
+    "correct": "other people"
+}, {
+    "q": "According to a popular slogan, what state should people not 'mess with'?",
+    "a": ["New York",
+        "Texas",
+        "Montana",
+        "Rhode Island"
+    ],
+    "correct": "Texas"
+}, {
+    "q": "According to a Yale University study, what smell is the most recognizable to American adults?",
+    "a": ["tuna",
+        "laundry",
+        "popcorn",
+        "coffee"
+    ],
+    "correct": "coffee"
+}, {
+    "q": "According to folklore, the 'jackalope' is an antlered version of what animal?",
+    "a": ["chicken",
+        "rabbit",
+        "moose",
+        "snake"
+    ],
+    "correct": "rabbit"
+}, {
+    "q": "According to Greek mythology, who was Apollo's twin sister?",
+    "a": ["Aphrodite",
+        "Artemis",
+        "Venus",
+        "Athena"
+    ],
+    "correct": "Artemis"
+}, {
+    "q": "According to legend, if you give someone the 'evil eye' what are you doing?",
+    "a": ["cursing them",
+        "blessing a child",
+        "counting money",
+        "passing time"
+    ],
+    "correct": "cursing them"
+}, {
+    "q": "According to legend, in what country are you most likely to meet a leprechaun?",
+    "a": ["Ireland",
+        "Poland",
+        "Greenland",
+        "Scotland"
+    ],
+    "correct": "Ireland"
+}, {
+    "q": "According to the American Kennel Club, what is the most popular breed of dog in the US as of 1999?",
+    "a": ["Poodle",
+        "Beagle",
+        "German shepherd",
+        "Labrador retriever"
+    ],
+    "correct": "Labrador retriever"
+}, {
+    "q": "According to the Bible, Moses and Aaron had a sister named what?",
+    "a": ["Jochebed",
+        "Ruth",
+        "Leah",
+        "Miriam"
+    ],
+    "correct": "Miriam"
+}, {
+    "q": "According to the children's nursery rhyme, what type of ocean did Columbus sail in 1492?",
+    "a": ["calm",
+        "blue",
+        "windy",
+        "really big"
+    ],
+    "correct": "blue"
+}, {
+    "q": "According to the Mother Goose nursery rhyme, which child is full of woe?",
+    "a": ["Monday's child",
+        "Wednesday's child",
+        "Thursday's child",
+        "Saturday's child"
+    ],
+    "correct": "Wednesday's child"
+}, {
+    "q": "According to the popular saying, what should you do 'when in Rome'?",
+    "a": ["watch your wallet",
+        "see the Coliseum",
+        "as the Romans do",
+        "don't drink the water"
+    ],
+    "correct": "as the Romans do"
+}, {
+    "q": "According to the proverb, necessity is the mother of what?",
+    "a": ["Invention",
+        "Luck",
+        "Problems",
+        "Procrastination"
+    ],
+    "correct": "Invention"
+}, {
+    "q": "According to the title of a popular children's TV show, what color is Bear's big house?",
+    "a": ["red",
+        "green",
+        "purple",
+        "blue"
+    ],
+    "correct": "blue"
+}, {
+    "q": "According to the USDA, which food group should you eat the most servings of per day?",
+    "a": ["vegetables",
+        "dairy",
+        "meats",
+        "breads"
+    ],
+    "correct": "breads"
+}, {
+    "q": "Ada Lovelace is credited with being the first person to have made what?",
+    "a": ["a computer program",
+        "a souffle",
+        "a brassiere",
+        "a mystery novel"
+    ],
+    "correct": "a computer program"
+}, {
+    "q": "After Prince Charles, who is next in line to be the king of England?",
+    "a": ["Prince William",
+        "Prince Andrew",
+        "Prince Edward",
+        "Fresh Prince"
+    ],
+    "correct": "Prince William"
+}, {
+    "q": "An airplane's black box is usually what color?",
+    "a": ["black",
+        "white",
+        "orange",
+        "purple"
+    ],
+    "correct": "orange"
+}, {
+    "q": "As of 1999, which state has the most Girl Scouts?",
+    "a": ["California",
+        "Illinois",
+        "New York",
+        "Pennsylvania"
+    ],
+    "correct": "California"
+}, {
+    "q": "Astronaut John Glenn served as a pilot in what branch of the military?",
+    "a": ["Army",
+        "Air Force",
+        "Marines",
+        "Navy"
+    ],
+    "correct": "Marines"
+}, {
+    "q": "At the equator, how fast is the earth's surface turning?",
+    "a": ["about 100 miles per hour",
+        "about 500 miles per hour",
+        "about 1000 miles per hour",
+        "about 2000 miles per hour"
+    ],
+    "correct": "about 1000 miles per hour"
+}, {
+    "q": "At what age can someone first attend an R-rated movie without an accompanying adult?",
+    "a": ["15",
+        "17",
+        "18",
+        "21"
+    ],
+    "correct": "18"
+}, {
+    "q": "Backgammon is a how many player game?",
+    "a": ["Two",
+        "Three",
+        "Four",
+        "Six"
+    ],
+    "correct": "Two"
+}, {
+    "q": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?",
+    "a": ["Boston Celtics",
+        "Los Angeles Lakers",
+        "New York Knicks",
+        "Philadelphia 76ers"
+    ],
+    "correct": "New York Knicks"
+}, {
+    "q": "By what name is Bob Keeshan better known?",
+    "a": ["Bozo the Clown",
+        "Pee Wee Herman",
+        "Captain Kangaroo",
+        "Buffalo Bob"
+    ],
+    "correct": "Captain Kangaroo"
+}, {
+    "q": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?",
+    "a": ["the Trio",
+        "the Troika",
+        "the Triumvirate",
+        "the Trinity"
+    ],
+    "correct": "the Trinity"
+}, {
+    "q": "By what nickname is the Federal National Mortgage Association known?",
+    "a": ["Morty",
+        "FEMA",
+        "Freddie Mac",
+        "Fannie Mae"
+    ],
+    "correct": "Fannie Mae"
+}, {
+    "q": "Cheddar cheese got its name from a village in what country?",
+    "a": ["England",
+        "France",
+        "Switzerland",
+        "Denmark"
+    ],
+    "correct": "England"
+}, {
+    "q": "Cheese is a necessary ingredient in which of these dishes?",
+    "a": ["sushi",
+        "french fries",
+        "veal parmigiano",
+        "chicken pot pie"
+    ],
+    "correct": "veal parmigiano"
+}, {
+    "q": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+    "a": ["American Revolution",
+        "War of 1812",
+        "Civil War",
+        "World War I"
+    ],
+    "correct": "War of 1812"
+}, {
+    "q": "During which war did US troops fight the Battle of New Orleans?",
+    "a": ["American Revolution",
+        "Civil War",
+        "Mexican War",
+        "War of 1812"
+    ],
+    "correct": "War of 1812"
+}, {
+    "q": "Each year in pro baseball, the player voted as the best fielder at his position wins what?",
+    "a": ["a brand new car",
+        "the Gold Glove",
+        "the Silver Bat",
+        "the Brass Baseball"
+    ],
+    "correct": "the Gold Glove"
+}, {
+    "q": "Elephant tusks are made of what material?",
+    "a": ["coral",
+        "ivory",
+        "bone",
+        "calcium"
+    ],
+    "correct": "ivory"
+}, {
+    "q": "Excluding wisdom teeth, how many adult teeth do humans have?",
+    "a": ["28",
+        "32",
+        "35",
+        "40"
+    ],
+    "correct": "28"
+}, {
+    "q": "For a man and woman on a date, 'dutch treat' means what?",
+    "a": ["the man pays",
+        "the woman pays",
+        "the Dutch pay",
+        "each pays their own way"
+    ],
+    "correct": "each pays their own way"
+}, {
+    "q": "For what purpose would you use an awl?",
+    "a": ["to shoot ducks",
+        "to polish floors",
+        "to make holes",
+        "to weigh fruit"
+    ],
+    "correct": "to make holes"
+}, {
+    "q": "From 1971 to 1997, the Democratic Republic of Congo was known as what?",
+    "a": ["Zaire",
+        "Angola",
+        "Rhodesia",
+        "Belgian Congo"
+    ],
+    "correct": "Zaire"
+}, {
+    "q": "From what language does the term 'R.S.V.P.' originate?",
+    "a": ["Russian",
+        "Italian",
+        "Portuguese",
+        "French"
+    ],
+    "correct": "French"
+}, {
+    "q": "From whom does the Lutheran Church get its name?",
+    "a": ["Martin Luther King Jr",
+        "Martin Luther",
+        "Luther Vandross",
+        "Lex Luthor"
+    ],
+    "correct": "Martin Luther"
+}, {
+    "q": "Gerry Adams is the president of what organization?",
+    "a": ["Greenpeace",
+        "NASCAR",
+        "Sinn Fein",
+        "PLO"
+    ],
+    "correct": "Sinn Fein"
+}, {
+    "q": "Girls of what religious community traditionally wear bonnets?",
+    "a": ["Amish",
+        "Sikh",
+        "Roman Catholic",
+        "Christian"
+    ],
+    "correct": "Amish"
+}, {
+    "q": "How are actors Charlie Sheen and Emilio Estevez related?",
+    "a": ["they're cousins",
+        "they're brothers",
+        "they're father and son",
+        "they're uncle and nephew"
+    ],
+    "correct": "they're brothers"
+}, {
+    "q": "How do you express 3/4 as a decimal?",
+    "a": [".25",
+        ".50",
+        ".75",
+        ".90"
+    ],
+    "correct": ".75"
+}, {
+    "q": "How is 4:00 pm expressed in military time?",
+    "a": ["1600",
+        "004",
+        "0400 ",
+        "4:00"
+    ],
+    "correct": "1600"
+}, {
+    "q": "How is the Arabic numeral for '2' written?",
+    "a": ["2",
+        "II",
+        "I",
+        "ii"
+    ],
+    "correct": "2"
+}, {
+    "q": "How is the word 'ambulance' normally written on the front of American ambulances?",
+    "a": ["in French",
+        "in reverse",
+        "in braille",
+        "in gibberish"
+    ],
+    "correct": "in reverse"
+}, {
+    "q": "How long is a single term in the US Senate?",
+    "a": ["two years",
+        "four years",
+        "six years",
+        "eight years"
+    ],
+    "correct": "six years"
+}, {
+    "q": "How long is the time on an NBA shot clock?",
+    "a": ["18 seconds",
+        "24 seconds",
+        "30 seconds",
+        "35 seconds"
+    ],
+    "correct": "24 seconds"
+}, {
+    "q": "How many $100 bills does it take to equal one million dollars?",
+    "a": ["one thousand",
+        "five thousand",
+        "ten thousand",
+        "one hundred thousand"
+    ],
+    "correct": "ten thousand"
+}, {
+    "q": "How many axles does a standard automobile have?",
+    "a": ["one",
+        "two",
+        "four",
+        "eight"
+    ],
+    "correct": "two"
+}, {
+    "q": "How many digits are in a standard Visa credit card number?",
+    "a": ["12",
+        "15",
+        "16",
+        "20"
+    ],
+    "correct": "16"
+}, {
+    "q": "How many eyes does a Giraffe have?",
+    "a": ["one",
+        "two",
+        "three",
+        "four"
+    ],
+    "correct": "two"
+}, {
+    "q": "How many innings are there in a regular Major League Baseball game?",
+    "a": ["seven",
+        "eight",
+        "nine",
+        "ten"
+    ],
+    "correct": "nine"
+}, {
+    "q": "How many keys are on a standard piano?",
+    "a": ["20",
+        "54",
+        "88",
+        "100"
+    ],
+    "correct": "88"
+}, {
+    "q": "How many men has actress Elizabeth Taylor been divorced from?",
+    "a": ["five",
+        "six",
+        "seven",
+        "eight"
+    ],
+    "correct": "seven"
+}, {
+    "q": "How many ounces are in a pound?",
+    "a": ["4",
+        "12",
+        "16",
+        "32"
+    ],
+    "correct": "16"
+}, {
+    "q": "How many periods are there in an ice hockey game?",
+    "a": ["One",
+        "Two",
+        "Three",
+        "Four"
+    ],
+    "correct": "Three"
+}, {
+    "q": "How many quarts are there in a gallon?",
+    "a": ["one",
+        "two",
+        "three",
+        "four"
+    ],
+    "correct": "four"
+}, {
+    "q": "How many ribs are there in the human body?",
+    "a": ["18",
+        "24",
+        "30",
+        "42"
+    ],
+    "correct": "24"
+}, {
+    "q": "How many ships did Columbus set sail with on his initial voyage to the New World?",
+    "a": ["Two",
+        "Three",
+        "Five",
+        "Ten"
+    ],
+    "correct": "Three"
+}, {
+    "q": "How many spikes are on the Statue of Liberty's crown?",
+    "a": ["five",
+        "seven",
+        "nine",
+        "thirteen"
+    ],
+    "correct": "seven"
+}, {
+    "q": "How many stars are on the American flag?",
+    "a": ["13",
+        "48",
+        "50",
+        "51"
+    ],
+    "correct": "50"
+}, {
+    "q": "How many states were in the Confederate States of America?",
+    "a": ["11",
+        "13",
+        "16",
+        "22"
+    ],
+    "correct": "11"
+}, {
+    "q": "How much does Peanuts character Lucy charge for her psychiatric advice?",
+    "a": ["5 cents",
+        "10 cents",
+        "75 cents",
+        "$125"
+    ],
+    "correct": "5 cents"
+}, {
+    "q": "How long is Hanukkah?",
+    "a": ["one day",
+        "five days",
+        "eight days",
+        "two weeks"
+    ],
+    "correct": "eight days"
+}, {
+    "q": "Huffy, Schwinn and Raleigh are all brands of what?",
+    "a": ["sportswear",
+        "dishwashers",
+        "cigarettes",
+        "bicycles"
+    ],
+    "correct": "bicycles"
+}, {
+    "q": "If a business files under Chapter 11 what is it doing?",
+    "a": ["declaring bankruptcy",
+        "selling stock",
+        "buying a smaller",
+        "company suing the government"
+    ],
+    "correct": "declaring bankruptcy"
+}, {
+    "q": "If a piece of music is in 'common time' how many quarter notes are there per measure?",
+    "a": ["one",
+        "four",
+        "five",
+        "ten"
+    ],
+    "correct": "four"
+}, {
+    "q": "If a ring has the number 925 stamped into it, it is most likely made of what material?",
+    "a": ["platinum",
+        "gold",
+        "steel",
+        "silver"
+    ],
+    "correct": "silver"
+}, {
+    "q": "If someone has cataracts, what part of their body might need an operation?",
+    "a": ["ear",
+        "hand",
+        "eye",
+        "knee"
+    ],
+    "correct": "eye"
+}, {
+    "q": "If you are 'riding fakie' inside a 'half pipe' what are you probably doing?",
+    "a": ["skiing",
+        "biking",
+        "snowboarding",
+        "surfing"
+    ],
+    "correct": "snowboarding"
+}, {
+    "q": "If you are truly afraid of the dark, what do you suffer from?",
+    "a": ["hypnophobia",
+        "cryptophobia",
+        "hadephobia",
+        "nyctophobia"
+    ],
+    "correct": "nyctophobia"
+}, {
+    "q": "If you are watching a Shavian play, who is the author?",
+    "a": ["Shakespeare",
+        "Aeschylus",
+        "George Bernard Shaw",
+        "Anton Chekhov"
+    ],
+    "correct": "George Bernard Shaw"
+}, {
+    "q": "If you ask for 'gai' at a Thai restaurant, what will you get?",
+    "a": ["shrimp",
+        "chicken",
+        "beef",
+        "pork"
+    ],
+    "correct": "chicken"
+}, {
+    "q": "If you dial '411' on a telephone, who are you calling?",
+    "a": ["the police",
+        "the White House",
+        "directory assistance",
+        "Moviefone"
+    ],
+    "correct": "directory assistance"
+}, {
+    "q": "If you have a 'sawbuck' how much money do you have?",
+    "a": ["$1",
+        "$5",
+        "$10",
+        "$20"
+    ],
+    "correct": "$10"
+}, {
+    "q": "If you work as a 'dolly grip' what business are you in?",
+    "a": ["sheep farming",
+        "film production",
+        "construction",
+        "moving"
+    ],
+    "correct": "film production"
+}, {
+    "q": "In 1909, Frederick Cook claimed to be the first explorer to reach what location?",
+    "a": ["Mount Everest",
+        "Bermuda Triangle",
+        "Atlantis",
+        "North Pole"
+    ],
+    "correct": "North Pole"
+}, {
+    "q": "In 1926, the Harlem Globetrotters basketball team was formed in what city?",
+    "a": ["Boston",
+        "Philadelphia",
+        "Chicago",
+        "New York City"
+    ],
+    "correct": "Chicago"
+}, {
+    "q": "In 1960, Nazi official Adolph Eichmann was finally captured in what country?",
+    "a": ["Brazil",
+        "East Germany",
+        "Argentina",
+        "Paraguay"
+    ],
+    "correct": "Argentina"
+}, {
+    "q": "In 1978, who became the youngest jockey ever to win horse racing's triple crown?",
+    "a": ["Jerry Bailey",
+        "Steve Cauthen",
+        "Willie Shoemaker",
+        "Pasquale Devito"
+    ],
+    "correct": "Steve Cauthen"
+}, {
+    "q": "In 1986, Libyan leader Muammar Qaddafi drew a so-called 'Line of Death' over what body of water?",
+    "a": ["Gulf of Sidra",
+        "Gulf of Oman",
+        "Red Sea",
+        "Persian Gulf"
+    ],
+    "correct": "Gulf of Sidra"
+}, {
+    "q": "In a game with no wild cards, what is the highest possible poker hand?",
+    "a": ["straight flush",
+        "royal flush",
+        "full house",
+        "four of a kind"
+    ],
+    "correct": "royal flush"
+}, {
+    "q": "In America, what is the main ingredient in pepperoni?",
+    "a": ["fish",
+        "pepper",
+        "wheat",
+        "meat"
+    ],
+    "correct": "meat"
+}, {
+    "q": "In American football, how many points is a touchdown worth?",
+    "a": ["two",
+        "three",
+        "six",
+        "seven"
+    ],
+    "correct": "six"
+}, {
+    "q": "In an adult human, how long is the large intestine?",
+    "a": ["one foot",
+        "five feet",
+        "twelve feet",
+        "twenty feet"
+    ],
+    "correct": "five feet"
+}, {
+    "q": "In baseball, how many balls make a walk?",
+    "a": ["one",
+        "two",
+        "three",
+        "four"
+    ],
+    "correct": "four"
+}, {
+    "q": "In bowling, how many pins must you knock down to get a strike?",
+    "a": ["zero",
+        "8",
+        "10",
+        "12"
+    ],
+    "correct": "10"
+}, {
+    "q": "In British currency, how many pence make a pound?",
+    "a": ["10",
+        "100",
+        "500",
+        "1000"
+    ],
+    "correct": "100"
+}, {
+    "q": "In computer terminology, what does the acronym 'FTP' stand for?",
+    "a": ["file transfer protocol",
+        "full time portal",
+        "full text processor",
+        "free to print"
+    ],
+    "correct": "file transfer protocol"
+}, {
+    "q": "In computer terminology, what does the acronym 'ISP' stand for?",
+    "a": ["Individual Site Privacy",
+        "Investment Stability Plan",
+        "Internal Security Position",
+        "Internet Service Provider"
+    ],
+    "correct": "Internet Service Provider"
+}, {
+    "q": "In cooking, the term 'au gratin' is sometimes used to describe a dish with what topping?",
+    "a": ["cheese",
+        "fruit",
+        "gravy",
+        "whipped cream"
+    ],
+    "correct": "cheese"
+}, {
+    "q": "In golf, what is one stroke over par called?",
+    "a": ["eagle",
+        "bogey",
+        "dormy",
+        "birdie"
+    ],
+    "correct": "bogey"
+}]

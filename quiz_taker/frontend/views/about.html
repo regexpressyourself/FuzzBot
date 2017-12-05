@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>FuzzBot - CS 437 Final Project</title>
+        <title>Quiz Taker - CS 437 Final Project</title>
 
         <meta name="description" 
               content="Sam Messina and Dan Jensen's Project. An automatic quiz 
@@ -24,23 +24,23 @@
               type="text/css" media="screen" charset="utf-8">
     </head>
 
-    <body class="container">
-        <h1>Results: <span id="total-grade"></span></h1>
-        <p>You guessed on <span id="num-guessed"></span> answers.</p>
-        <p>You guessed with <span id="guessed-correct"></span> accuracy.</p>
-        <canvas id="result-chart"></canvas>
-
-        <div class="two-btn-container">
-            
-        <button class="left-btn button-primary" onclick="window.location.href='/test'" href="/test" >
-            Take Another Quiz
+    <body id="aboutpage" class="container">
+        <h1>Background Info</h1>
+        <ul>
+            <hr>
+            <li>Ever had a class where online quizzes counted for extra credit?</li>
+            <hr>
+            <li>Ever had a class where online quizzes were the only study guide?</li>
+            <hr>
+            <li>Ever had a class where online quizzes could be taken unlimited times?</li>
+            <hr>
+        </ul>
+        <p id="ustoo">Us too!</p>
+        <p>FuzzBot is a fuzzy expert system that will learn from its mistakes, eventually acing its tests.</p>
+        <p>Let's get started!</p>
+        <button class="button-primary" onclick="window.location.href='/test'" href="/test" >
+            Take A Quiz
         </button>
-        <button class="right-btn button-secondary" onclick="window.location.href='/'" href="/" >
-            Go Home
-        </button>
-        </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-        <script charset="utf-8" src="./js/results.js"></script>
     </body>
 
 </html>
