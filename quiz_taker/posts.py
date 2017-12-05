@@ -11,9 +11,15 @@ quiz_data    = json.load(open(question_url))
 answer_url   = os.path.join(SITE_ROOT, 'frontend/config', 'answer_data.json')
 
 # stored globally in order to hold values in runtime over multiple requests
-num_correct           = 0
-num_guessed           = 0
-num_guessed_correctly = 0
+
+correct_hist           = []
+num_correct            = 0
+
+guessed_hist           = []
+num_guessed            = 0
+
+guessed_correctly_hist = []
+num_guessed_correctly  = 0
 
 def find_question(q, answer_data):
     # get the question's index in our answer bank, if it exists
@@ -89,6 +95,7 @@ def handle_post(request):
     # update our answers file with the new attempt
     with open(answer_url,"w") as fo:
         fo.write(json.dumps(answer_data))
+
     return
 
 @app.route('/api/send_quiz', methods=['POST', 'GET'])
@@ -98,7 +105,17 @@ def send_quiz():
     global num_guessed_correctly
     if request.method == 'POST':
         handle_post(request)
+        guessed_hist.append(num_guessed)
+        guessed_correctly_hist.append(num_guessed_correctly)
+        correct_hist.append(num_correct)
         # send the user off to the results page
         return redirect("/results", code=302)
     else:
-        return jsonify( { "num_guessed": num_guessed, "num_guessed_correctly": num_guessed_correctly, "num_correct": num_correct})
+        return jsonify({ 
+                    "num_guessed": num_guessed, 
+                    "num_guessed_correctly": num_guessed_correctly, 
+                    "num_correct": num_correct,
+                    "guessed_hist": guessed_hist,
+                    "guessed_correctly_hist": guessed_correctly_hist,
+                    "correct_hist": correct_hist
+                    })
