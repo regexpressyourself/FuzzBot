@@ -25,22 +25,10 @@
     </head>
 
     <body class="container">
-        <h1>Results</h1>
-        <p>Here's how you did!</p>
-        <table>
-            <tr>
-                <th>Total Grade</th>
-                <td id="total-grade"></td>
-            </tr>
-            <tr>
-                <th>Number Guessed</th>
-                <td id="num-guessed"></td>
-            </tr>
-            <tr>
-                <th>Correct Guesses (%)</th>
-                <td id="guessed-correct"></td>
-            </tr>
-        </table>
+        <h1>Results: <span id="total-grade"></span></h1>
+        <p>You guessed on <span id="num-guessed"></span> answers.</p>
+        <p>You guessed with <span id="guessed-correct"></span> accuracy.</p>
+        <canvas id="result-chart"></canvas>
 
         <div class="two-btn-container">
             
@@ -51,6 +39,7 @@
             Go Home
         </button>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <script charset="utf-8" src="./js/results.js"></script>
     </body>
 
