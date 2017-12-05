@@ -49,6 +49,26 @@ let myChart = new Chart(ctx, {
                 borderColor: "red",
                 fill: false
             }
-        ]}
+        ]},
+    options: {
+        title: {
+            display: true,
+            text: 'Change in questions guessed vs. questions known'
+        },
+        scales: {
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Number of Questions'
+                }
+            }],
+            xAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Epoch Number'
+                }
+            }]
+    }
+    }
 
 });
