@@ -12,6 +12,10 @@ def index():
 def render_test_page():
     return send_from_directory('frontend/views', 'test.html')
 
+@app.route('/about')
+def render_about_page():
+    return send_from_directory('frontend/views', 'about.html')
+
 @app.route('/results')
 def render_results_page():
     return send_from_directory('frontend/views', 'results.html')
