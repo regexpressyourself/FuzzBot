@@ -1,37 +1,56 @@
-# Quiz Taker
+<img alt="FuzzBot Logo" align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Robot_icon.svg/768px-Robot_icon.svg.png" width="400px" />
+
+# FuzzBot
+
+Sam Messina
+
+Dan Jensen
+
+_FuzzBot is an automatic online quiz taker._
+
+## Table of Contents
+
+1. [Installing](#installing)
+2. [Running](#running)
+3. [Architecture And Code Organization](#architecture-and-code-organization)
+3. [File Tree](#file-tree)
 
 ## Installing
 
-Make sure you have Python+pip and Node+NPM installed! 
+1. Make sure you have [Python+pip](https://www.python.org/downloads/) and [Node+NPM](https://nodejs.org/en/download/) installed! 
+2. Next, run `make install` to install Flask and the requisite NPM packages.
 
-Next, run `make install` to install Flask and the requisite npm packages.
-
-As far as I know, you should be up and running from there.
+You are now ready to run the program.
 
 ## Running
 
 To run the project, simply run `make`.
 
-Open up [localhost:5000](http://localhost:5000/) and you can see her go!
+Open up [localhost:5000](http://localhost:5000/) to view the project.
 
-## Architecture/Code Organization
+## Architecture And Code Organization
 
 Everything is in the quiz_taker directory
 
-### Flask stuff
+### General Files
+- `Makefile`: handles install and run commands
+- `setup.py`: module information for our backend
+
+### Flask Files
 
 - `__init.py__`: entry point for flask
 - `gets.py`: get requests
 - `posts.py`: post requests
 - `statics.py`: static asset rendering
 
-### Front End Stuff
+### Front End Files
 
 #### Views
 
 - `frontend/views/index.html`: homepage
 - `frontend/views/test.html`: shows the quiz
 - `frontend/views/results.html`: shows results from the quiz
+- `frontend/views/about.html`: information about the project
 
 #### Configs
 
@@ -47,42 +66,46 @@ Everything is in the quiz_taker directory
 - `frontend/js/generate_questions.js`: create the HTML questions from the JSON question bank
 - `frontend/js/results.js`: populate the data on the results page with the most recent results
 - `frontend/js/take_quiz.js`: the "bot" that takes the quizzes
+- `frontend/js/fuse.min.js`: our fuzzy search library
 
 #### CSS 
 
 - `frontend/css/main.css`: A little basic CSS overrides. Most CSS is from the [Skeleton](http://getskeleton.com/) framework.
 
-### Relevant File Tree
+#### Assets
+
+- `frontend/assets/robot.png`: the image of a robot, licensed in the public domain
+
+## File Tree
 
 ```
 .
-├── __init__.py
-├── statics.py
-├── posts.py
-├── gets.py
-│
-└── frontend
-    ├── README.md
-    ├── package.json
-    │
-    ├── views
-    │   ├── test.html
-    │   ├── results.html
-    │   └── index.html
-    │
-    ├── js
-    │   ├── take_quiz.js
-    │   ├── results.js
-    │   └── generate_questions.js
-    │
-    ├── css
-    │   └── main.css
-    │
-    ├── config
-    │   ├── quiz_data.json
-    │   └── answer_data.json
-    │
-    └── assets
-        └── robot.png
+├── Makefile
+├── README.md
+├── setup.py
+└── quiz_taker
+    ├── gets.py
+    ├── __init__.py
+    ├── posts.py
+    ├── statics.py
+    └── frontend
+        ├── package.json
+        ├── assets
+        │   └── robot.png
+        ├── config
+        │   ├── answer_data.json
+        │   └── quiz_data.json
+        ├── css
+        │   └── main.css
+        ├── js
+        │   ├── fuse.min.js
+        │   ├── generate_questions.js
+        │   ├── results.js
+        │   └── take_quiz.js
+        └── views
+            ├── about.html
+            ├── index.html
+            ├── results.html
+            └── test.html
 ```
 
