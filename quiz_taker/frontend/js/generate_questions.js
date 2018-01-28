@@ -48,7 +48,7 @@ function httpGet(theUrl)
 }
 
 // quiz_questions comes from quiz_data.js
-quiz_questions = JSON.parse(httpGet("/api/get_questions"));
+quiz_questions = JSON.parse(httpGet("/fuzzbot/api/get_questions"));
 
 let quiz_form = document.getElementById("inner-quiz");
 let i = 0;

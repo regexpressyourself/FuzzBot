@@ -98,7 +98,7 @@ def handle_post(request):
 
     return
 
-@app.route('/api/send_quiz', methods=['POST', 'GET'])
+@app.route('/fuzzbot/api/send_quiz', methods=['POST', 'GET'])
 def send_quiz():
     global num_correct
     global num_guessed
@@ -109,7 +109,7 @@ def send_quiz():
         guessed_correctly_hist.append(num_guessed_correctly)
         correct_hist.append(num_correct)
         # send the user off to the results page
-        return redirect("/results", code=302)
+        return redirect("/fuzzbot/results", code=302)
     else:
         return jsonify({ 
                     "num_guessed": num_guessed, 

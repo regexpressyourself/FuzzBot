@@ -1,7 +1,7 @@
 function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time));
 }
-let previous_attempt_data = JSON.parse(httpGet("/api/get_answers"));
+let previous_attempt_data = JSON.parse(httpGet("/fuzzbot/api/get_answers"));
 
 let fuzz = (search, array, threshold, keys) => {
     var options = {

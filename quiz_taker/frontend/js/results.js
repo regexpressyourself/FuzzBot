@@ -6,7 +6,7 @@ function httpGet(theUrl)
     return xmlHttp.responseText;
 }
 
-let results = JSON.parse(httpGet("/api/send_quiz"));
+let results = JSON.parse(httpGet("/fuzzbot/api/send_quiz"));
 
 let correct = results["num_correct"]/20*100 + "%";
 
